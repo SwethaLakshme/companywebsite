@@ -1047,7 +1047,7 @@
         position: relative;
         transform: scaleX(0);
         transform-origin: left;
-        background-image: url('contact-img.svg');
+        background-image: url('../images/contact-img.svg');
         background-position: center;
         background-size: cover;
         margin-top: 20px;
