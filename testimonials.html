@@ -56,17 +56,16 @@
 </head>
 <body>
     <!--preloader-->
-    <section>
-		<div id="preloader">
-			<div id="ctn-preloader" class="ctn-preloader">
-				<div class="animation-preloader">
-                    <div class="spinner" style="padding:0;margin:0;height:100px;width:100px;"></div>
-				</div>	
-				<div class="loader-section section-left"></div>
-				<div class="loader-section section-right"></div>
-			</div>
-		</div>
-	</section>
+    <div class="loader-bg">
+        <section>
+		    <div class="loader loader-2">
+		      <svg class="loader-star" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1">
+		            <polygon points="29.8 0.3 22.8 21.8 0 21.8 18.5 35.2 11.5 56.7 29.8 43.4 48.2 56.7 41.2 35.1 59.6 21.8 36.8 21.8 " fill="#18ffff" />
+		         </svg>
+		      <div class="loader-circles"></div>
+		    </div>
+		  </section>
+    </div>
     <!--preloader end-->
 
     <!--top nav-->
@@ -1068,5 +1067,10 @@
 <script src="assests\js\counterup.min.js"></script>
 <script src="assests\owl.carousel\owl.carousel.min.js"></script>
 <script>AOS.init();</script>
+<script>
+    setTimeout( function () {
+    $ ('.loader-bg').fadeToggle();
+    },1500);
+</script>
 </body>
 </html>
