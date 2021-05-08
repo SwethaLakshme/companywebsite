@@ -27,17 +27,125 @@
     <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
     <!-- CSS only -->
+    
     <link rel="stylesheet" href="assests/css/web19201.css">
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
 </head>
 <style>
-    bodY {
+    
+    .loader-bg{
+        background-color:black;
+        position:fixed;
+        z-index:999999;
+        height:100%;
+        width:100%;
+    }
+    .loader-2 .loader-star {
+    position: static;
+    width: 60px;
+    height: 60px;
+    -webkit-transform: scale(0.7);
+    transform: scale(0.7);
+    -webkit-animation: loader-2-star 1s ease alternate infinite;
+    animation: loader-2-star 1s ease alternate infinite;
+}
+
+.loader-2 .loader-circles {
+    width: 8px;
+    height: 8px;
+    background: #18ffff;
+    border-radius: 50%;
+    position: absolute;
+    left: calc(50% - 4px);
+    top: calc(50% - 4px);
+    -webkit-transition: all 1s ease;
+    transition: all 1s ease;
+    -webkit-animation: loader-2-circles 1s ease-in-out alternate infinite;
+    animation: loader-2-circles 1s ease-in-out alternate infinite;
+}
+
+.loader {
+    position:fixed;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.loader-star {
+    position: absolute;
+    top: calc(50% - 12px);
+}
+
+
+    body {
         font-family: 'Poppins', sans-serif;
+    }
+    .loader {
+        top:calc(50vh - 20px) !important;
+        left:calc(50vw - 20px) !important;
+    }
+    
+@keyframes loader-2-circles {
+    0% {
+        box-shadow: 0 0 0 #18ffff;
+        opacity: 1;
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    50% {
+        box-shadow: 24px -22px #18ffff, 30px -15px 0 -3px #18ffff, 31px 0px #18ffff, 29px 9px 0 -3px #18ffff, 24px 23px #18ffff, 17px 30px 0 -3px #18ffff, 0px 33px #18ffff, -10px 28px 0 -3px #18ffff, -24px 22px #18ffff, -29px 14px 0 -3px #18ffff, -31px -3px #18ffff, -30px -11px 0 -3px #18ffff, -20px -25px #18ffff, -12px -30px 0 -3px #18ffff, 5px -29px #18ffff, 13px -25px 0 -3px #18ffff;
+        -webkit-transform: rotate(180deg);
+        transform: rotate(180deg);
+    }
+    100% {
+        opacity: 0;
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+        box-shadow: 25px -22px #18ffff, 15px -22px 0 -3px black, 31px 2px #18ffff, 21px 2px 0 -3px black, 23px 25px #18ffff, 13px 25px 0 -3px black, 0px 33px #18ffff, -10px 33px 0 -3px black, -26px 24px #18ffff, -19px 17px 0 -3px black, -32px 0px #18ffff, -23px 0px 0 -3px black, -25px -23px #18ffff, -16px -23px 0 -3px black, 0px -31px #18ffff, -2px -23px 0 -3px black;
+    }
+}
+
+@-webkit-keyframes loader-2-star {
+    0% {
+        -webkit-transform: scale(0) rotate(0deg);
+        transform: scale(0) rotate(0deg);
+    }
+    100% {
+        -webkit-transform: scale(0.7) rotate(360deg);
+        transform: scale(0.7) rotate(360deg);
+    }
+}
+
+@keyframes loader-2-star {
+    0% {
+        -webkit-transform: scale(0) rotate(0deg);
+        transform: scale(0) rotate(0deg);
+    }
+    100% {
+        -webkit-transform: scale(0.7) rotate(360deg);
+        transform: scale(0.7) rotate(360deg);
+    }
+}
+    ul{
+        padding:0 !important;
     }
 </style>
 
 <body>
+
+    <div class="loader-bg">
+        <section>
+		    <div class="loader loader-2">
+		      <svg class="loader-star" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1">
+		            <polygon points="29.8 0.3 22.8 21.8 0 21.8 18.5 35.2 11.5 56.7 29.8 43.4 48.2 56.7 41.2 35.1 59.6 21.8 36.8 21.8 " fill="#18ffff" />
+		         </svg>
+		      <div class="loader-circles"></div>
+		    </div>
+		  </section>
+    </div>
   <div class="nav">
         <div class="nav-logo">
             <img src="assests/images/softrate-logo.png" alt="logo" srcset="">
@@ -47,7 +155,7 @@
             <a href="index.html">Home</a>
             <a href="about.html">About us</a>
             <a href="service.html">Services</a>
-            <!-- <a href="contact.html">Contact us</a> -->
+            <a href="testimonials.html">Testimonials</a>
         </div>
         <div class="nav-terms-policy">
             <a href="contact.html">Contact us</a>
@@ -146,7 +254,7 @@
 
 
     <footer class="footer">
-        <div class="containers">
+        <div class="container">
             <div class="rows">
                 <div class="footer-col">
                     <h4>Company</h4>
@@ -213,6 +321,13 @@
             </ul>
         </div>
         <script src="app.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+        <script>
+                setTimeout( function () {
+                $ ('.loader-bg').fadeToggle();
+                },1500);
+        </script>
 </body>
 
 </html>
