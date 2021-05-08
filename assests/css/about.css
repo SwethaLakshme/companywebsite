@@ -610,7 +610,6 @@ header {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#FF057C', endColorstr='#4CC3FF', GradientType=1);
 }
 
 .title {
