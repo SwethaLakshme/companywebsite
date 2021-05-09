@@ -1225,8 +1225,8 @@
             display: block;
         }
         .cont-form {
-            margin-left: -20px;
             width: 100%;
+            margin:10px 0;
         }
         .cont-info {
             width: 100%;
