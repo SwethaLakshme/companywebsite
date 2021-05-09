@@ -527,13 +527,13 @@
         font-weight: 600;
     }
     
-    span {
+    /* span {
         width: 10%;
         height: 5px;
         background: #c5ba8a;
         display: block;
         margin-top: 10px;
-    }
+    }  */
     
     .about__company {
         padding-top: 500px;
@@ -963,6 +963,7 @@
         }
     }
     /* .portfolio-projects:hover .portfolio-redirect {} */
+      
     /* Contact Page */
     
     #contact {
@@ -1023,10 +1024,10 @@
         font-weight: 700;
     }
     
-    .containers {
+    /* .containers {
         transform: scaleX(0);
         transform-origin: left;
-        /* margin-top: 30px; */
+        /* margin-top: 30px;
         display: flex;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
         justify-content: space-between;
@@ -1034,7 +1035,7 @@
         background-color: white;
         border-radius: 10px;
         height: max-content;
-    }
+    } */
     
     .cont-section {
         display: flex;

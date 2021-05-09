@@ -11,7 +11,10 @@
 ul {
     list-style: none;
 }
-
+.hustle{
+  display: flex;
+  flex-direction: column;
+}
 
 .footer {
   position: relative;
@@ -37,17 +40,7 @@ ul {
   position: relative;
   border-bottom:10px;
   margin-bottom: 20px;
-}
-
-.footer-col h4::before {
-  content: "";
-  position: absolute;
-  left: 0;
-  bottom: -10px;
-  background-color: #4a47a3;
-  height: 2px;
-  box-sizing: border-box;
-  width: 50px;
+  text-align: center;
 }
 
 .footer-col ul li:not(:last-child) {
@@ -63,6 +56,7 @@ ul {
   color: #bbbbbb;
   display: block;
   transition: all 0.3s ease;
+  text-align: center;
 }
 
 .footer-col ul li a img {
@@ -74,6 +68,23 @@ ul {
 .footer-col ul li a:hover, .footer-col ul li:hover {
   color: #ffffff;
   padding-left: 8px;
+}
+
+.footer-col h4 span
+{
+  padding-bottom: 3px;
+  border-bottom: 3px solid #4a47a3; 
+} 
+
+
+.footer-col h4 u
+{
+  padding-bottom: 3px;
+  
+} 
+
+.footer-col .social-links{
+  text-align: center;
 }
 
 .footer-col .social-links a {
