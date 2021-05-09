@@ -20,18 +20,21 @@ body {
 
 .nav-logo {
     float: left;
-    height: 40px;
+    height: auto;
+
     /* padding: 20px; */
 }
 
-.nav-logo img {
-    height: 60px;
+.nav-logo img { 
+    padding-left:10px;
+    height: 40px;
 }
 
-.nav-logo img:nth-child(2) {
+ .nav-logo img:nth-child(2) { 
+    padding-left:10px;
     height: 60px;
     display: none;
-}
+} 
 
 .nav-bar {
     padding: 10px 20px;

@@ -25,14 +25,15 @@
     
     .nav-logo {
         float: left;
-        height: 40px;
+        height: auto;
+    
         /* padding: 20px; */
     }
     
-    .nav-logo img {
-        height: 60px;
+    .nav-logo img { 
+        padding-left:10px;
+        height: 40px;
     }
-    
     .nav-logo img:nth-child(2) {
         height: 60px;
         display: none;
