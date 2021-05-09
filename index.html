@@ -37,10 +37,11 @@
     <style>
         .videowrapper {
             position: relative;
-            width: 100%;
+            width: 70%;
             overflow: hidden;
-            padding-top: 56.25%; /* 16:9 Aspect Ratio */
+            padding-top: 39.35%; /* 16:9 Aspect Ratio */
             margin-bottom: 25px;
+            margin-left: 17.5%;
           }
           
           .responsive-iframe {
@@ -52,6 +53,17 @@
             width: 100%;
             height: 100%;
             border: none;
+          }
+          @media screen and (max-width:770px) {
+            .videowrapper {
+                position: relative;
+                width: 100%;
+                overflow: hidden;
+                padding-top: 54.25%; /* 16:9 Aspect Ratio */
+                margin-bottom: 25px;
+                margin-left: 0;
+              }
+              
           }
     </style>
 </head>
