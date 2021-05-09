@@ -241,10 +241,10 @@ a{
 }
 @media(max-width:340px){
     .box-top{
-        flex-direction: column;
-        margin-bottom: 10px;
-        text-align: center;
-    }
+            flex-direction: column;
+    margin-bottom: 10px;
+    text-align: center;
+
     }
     .reviews{
         margin-top: 10px;
