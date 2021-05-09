@@ -43,17 +43,16 @@
 </head>
 
 <body>
-    <section>
-        <div id="preloader">
-            <div id="ctn-preloader" class="ctn-preloader">
-                <div class="animation-preloader">
-                    <div class="spinner"></div>
-                </div>
-                <div class="loader-section section-left"></div>
-                <div class="loader-section section-right"></div>
-            </div>
-        </div>
-    </section>
+    <div class="loader-bg">
+        <section>
+		    <div class="loader loader-2">
+		      <svg class="loader-star" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1">
+		            <polygon points="29.8 0.3 22.8 21.8 0 21.8 18.5 35.2 11.5 56.7 29.8 43.4 48.2 56.7 41.2 35.1 59.6 21.8 36.8 21.8 " fill="#18ffff" />
+		         </svg>
+		      <div class="loader-circles"></div>
+		    </div>
+		  </section>
+    </div>
     <div class="nav">
         <div class="nav-logo">
             <img src="assests/images/softrate-logo.png" alt="logo" srcset="">
@@ -371,6 +370,11 @@
                 
             </div>
     </section>
+    <script>
+        setTimeout( function () {
+        $ ('.loader-bg').fadeToggle();
+        },1500);
+</script>
 </body>
 
 </html>

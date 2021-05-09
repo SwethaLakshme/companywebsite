@@ -34,21 +34,40 @@
     <link rel="stylesheet" type="text/css" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css">
+    <style>
+        .videowrapper {
+            position: relative;
+            width: 100%;
+            overflow: hidden;
+            padding-top: 56.25%; /* 16:9 Aspect Ratio */
+            margin-bottom: 25px;
+          }
+          
+          .responsive-iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            width: 100%;
+            height: 100%;
+            border: none;
+          }
+    </style>
 </head>
 
 <body>
     <!--preloader-->
-    <section>
-		<div id="preloader">
-			<div id="ctn-preloader" class="ctn-preloader">
-				<div class="animation-preloader">
-                    <div class="spinner" style="padding:0;margin:0;height:100px;width:100px;"></div>
-				</div>	
-				<div class="loader-section section-left"></div>
-				<div class="loader-section section-right"></div>
-			</div>
-		</div>
-	</section>
+    <div class="loader-bg">
+        <section>
+		    <div class="loader loader-2">
+		      <svg class="loader-star" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1">
+		            <polygon points="29.8 0.3 22.8 21.8 0 21.8 18.5 35.2 11.5 56.7 29.8 43.4 48.2 56.7 41.2 35.1 59.6 21.8 36.8 21.8 " fill="#18ffff" />
+		         </svg>
+		      <div class="loader-circles"></div>
+		    </div>
+		  </section>
+    </div>
     <!--preloader end-->
 
     <!--top nav-->
@@ -145,12 +164,17 @@
         <!-- ======= About Us Section ======= -->
         <section id="about">
             <div class="container" data-aos="fade-up">
-
+                
                 <header class="section-header">
                     <h3>About Us</h3>
                     <p>We are high quality professionals with Good design-thinking knowledge, our services are most unique, rich, flexible, low cost, etc. </p>
-                </header>
-
+                </header>                 
+                <div class="videowrapper">
+                    <iframe data-aos="flip-right" class="responsive-iframe" width="853" height="480" src="https://www.youtube.com/embed/P-0tFV_5rqY" title="YouTube video player" frameborder="0">
+                    </iframe>
+                </div>  
+                
+                
                 <div class="row about-cols">
 
                     <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
@@ -313,7 +337,11 @@
 <script src="assests\js\counterup.min.js"></script>
 <script src="assests\owl.carousel\owl.carousel.min.js"></script>
 <script>AOS.init();</script>
-
+<script>
+    setTimeout( function () {
+    $ ('.loader-bg').fadeToggle();
+    },1500);
+</script>
 </body>
 
 </html>
