@@ -198,6 +198,10 @@ a{
 .reviews{
     color: #f9d71c;
 }
+.reviews img{
+    height: 50px;
+    width: 50px;
+}
 .box-top{
     display: flex;
     justify-content: space-between;
@@ -237,8 +241,10 @@ a{
 }
 @media(max-width:340px){
     .box-top{
-        flex-wrap: wrap;
-        margin-bottom: 10px;
+            flex-direction: column;
+    margin-bottom: 10px;
+    text-align: center;
+
     }
     .reviews{
         margin-top: 10px;
