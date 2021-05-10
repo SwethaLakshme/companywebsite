@@ -100,50 +100,52 @@
 
 
     <!--Automatic carousel-->
-    <main id="main">
-        <div class="container1" style="background-color: black; ">
-            <div class="slideshow">
-                <div class="slide" style="background-image: url('assests/images/2.jpg');">
-                    <div class="container1">
-                        <h2>We are professionals</h2>
-                        <p>Experience the efficacy of our service; we are sure you will be glued to us.</p>
-                        <a href="about.html">Get Started</a>
-                    </div>
-                </div>
-                <div class="slide" style="background-image: url('assests/images/7.jpg');">
-                    <div class="container1">
-                        <h2>We are Hustlers</h2>
-                        <p>We lead, inspire and impress that's why we are hustlers in the market.</p>
-                        <a href="service.html">Our Works</a>
-                    </div>
-                </div>
-                <div class="slide" style="background-image: url('assests/images/9.jpg');">
-                    <div class="container1">
-                        <h2>Top branding company in Asia</h2>
-                        <p> It is no wonder why people make beeline for us as our service speaks.</p>
-                        <a href="#featured-services">Our Services</a>
-                    </div>
-                </div>
-                <div class="slide"
-                    style="background-image:url('https://content.timesjobs.com/img/62277032/Master.jpg')">
-                    <div class="container1">
-                        <h2>We are Multi-talented experts</h2>
-                        <p>Don’t get exhausted at the thought of brimming work load. We are always there whom you can
-                            bank on as we are multitalented.</p>
-                        <a href="#about.html">About us</a>
-                    </div>
-                </div>
-                <div class="slide"
-                    style="background-image:url('https://s3.amazonaws.com/businessinsider.mx/wp-content/uploads/2021/01/29195552/601441dd6dfbe10018e00c25-OyS30w.jpeg')">
-                    <div class="container1">
-                        <h2>We make ideas happen!</h2>
-                        <p>It is no wonder why people make beeline for us as our service speaks.</p>
-                        <a href="contact.html">Stay in touch</a>
-                    </div>
-                </div>
-            </div>
+    <div class="img-slider">
+        <div class="slide active">
+          <img src="assests/img/intro-carousel/1.jpg" alt="">
+          <!-- <div class="info"> -->
+            <!-- <h2>Slide 01</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          </div> -->
         </div>
-    </main>
+        <div class="slide">
+          <img src="assests/img/intro-carousel/2.jpg" alt="">
+          <div class="info">
+            <h2>Slide 02</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          </div>
+        </div>
+        <div class="slide">
+          <img src="assests/img/intro-carousel/4.jpg" alt="">
+          <div class="info">
+            <h2>Slide 03</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          </div>
+        </div>
+        <div class="slide">
+          <img src="assests/img/intro-carousel/5.jpg" alt="">
+          <!-- <div class="info">
+            <h2>Slide 04</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          </div> -->
+        </div>
+        <div class="slide">
+          <img src="assests/img/intro-carousel/7.jpg" alt="">
+          <div class="info">
+            <h2>Slide 05</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          </div>
+        </div>
+        <div class="navigation">
+          <div class="btn active"></div>
+          <div class="btn"></div>
+          <div class="btn"></div>
+          <div class="btn"></div>
+          <div class="btn"></div>
+        </div>
+      </div>
+  
+      
     <!-- ======= Featured Services Section Section ======= -->
     <section id="featured-services">
         <div class="container">
@@ -361,7 +363,60 @@
         setTimeout(function () {
             $('.loader-bg').fadeToggle();
         }, 1500);
-    </script>
+    </script><script type="text/javascript">
+      var slides = document.querySelectorAll('.slide');
+      var btns = document.querySelectorAll('.btn');
+      let currentSlide = 1;
+  
+      // Javascript for image slider manual navigation
+      var manualNav = function(manual){
+        slides.forEach((slide) => {
+          slide.classList.remove('active');
+  
+          btns.forEach((btn) => {
+            btn.classList.remove('active');
+          });
+        });
+  
+        slides[manual].classList.add('active');
+        btns[manual].classList.add('active');
+      }
+  
+      btns.forEach((btn, i) => {
+        btn.addEventListener("click", () => {
+          manualNav(i);
+          currentSlide = i;
+        });
+      });
+  
+      // Javascript for image slider autoplay navigation
+      var repeat = function(activeClass){
+        let active = document.getElementsByClassName('active');
+        let i = 1;
+  
+        var repeater = () => {
+          setTimeout(function(){
+            [...active].forEach((activeSlide) => {
+              activeSlide.classList.remove('active');
+            });
+  
+          slides[i].classList.add('active');
+          btns[i].classList.add('active');
+          i++;
+  
+          if(slides.length == i){
+            i = 0;
+          }
+          if(i >= slides.length){
+            return;
+          }
+          repeater();
+        }, 10000);
+        }
+        repeater();
+      }
+      repeat();
+      </script>
 </body>
 
 </html>
