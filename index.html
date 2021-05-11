@@ -407,11 +407,18 @@
                     [...active].forEach((activeSlide) => {
                         activeSlide.classList.remove('active');
                     });
+                    if(currentSlide != i)
+                    {
+                        i = currentSlide;
+                        currentSlide = i;
+                    }
                     slides[i].classList.add('active');
                     btns[i].classList.add('active');
                     i++;
+                    currentSlide++;
                     if (slides.length == i) {
                         i = 0;
+                        currentSlide = 0;
                     }
                     if (i >= slides.length) {
                         return;
