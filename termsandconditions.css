@@ -1,0 +1,14 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+p{
+    padding:0px 50px 0px ;
+}
+h3{
+    padding:0px 50px 0px;
+}
+
+ul{
+    padding: 0px 60px 0px;
+    list-style: disc;
+}

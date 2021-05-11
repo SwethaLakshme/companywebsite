@@ -54,6 +54,7 @@ body {
   text-transform: uppercase;
   font-weight: 800;
   letter-spacing: 2px;
+  font-family: 'Poppins', sans-serif;
 }
 
 .img-slider .slide .info p{
@@ -62,6 +63,7 @@ body {
   padding: 10px;
   border-radius: 4px;
   place-self: center;
+  font-family: 'Poppins', sans-serif;
 } 
 
 .img-slider .navigation {
