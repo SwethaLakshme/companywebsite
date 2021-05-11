@@ -56,7 +56,7 @@ TweenMax.from(".cont-info-head h2", 1, {
   y: "-30",
   opacity: 1,
   ease: Power2.easeInOut,
-  delay: 1
+  delay: 1,
 });
 TweenMax.from(".column-left p", 1, {
   y: "-30",
