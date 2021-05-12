@@ -39,3 +39,798 @@
                 </div>
         </div>
     </main>
+
+
+    <!--testimovials rest of content -->
+    <div class="tab_content tab_2">
+            <div class="testimonials">
+          <div class="inner">
+            <h1>Testimonials</h1>
+            <div class="border"></div>
+    
+            <div class="row">
+              <div class="col">
+                <div class="testimonial">
+                  <!-- <img src="p1.png" alt=""> -->
+            
+                    <img  src="assests/images/logo.png">
+
+                  <div class="name">Full name</div>
+                  <!-- <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                  </div> -->
+    
+                  <p>
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                  </p>
+                </div>
+              </div>
+    
+              <div class="col">
+                <div class="testimonial">
+                  <!-- <img src="p2.png" alt=""> -->
+                  <img  src="assests/images/logo.png">
+                  <div class="name">Full name</div>
+                  <!-- <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                  </div> -->
+    
+                  <p>
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                  </p>
+                </div>
+              </div>
+    
+              <div class="col">
+                <div class="testimonial">
+                  <!-- <img src="p3.png" alt=""> -->
+                  <img  src="assests/images/logo.png">
+                  <div class="name">Full name</div>
+                  <!-- <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                  </div> -->
+    
+                  <p>
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    
+        </div>
+        <div class="tab_content tab_3">
+            <section id="testimonials">
+    
+                <!--heading--->
+                <div class="testimonial-heading">
+                    <span>Testimonials</span>
+                    <h1>Clients Says</h1>
+                </div>
+        
+                <!--testimonials-box-container------>
+                <div class="testimonial-box-container">
+        
+                    <!--BOX-1-------------->
+                    <div class="testimonial-box">
+        
+                        <!--top------------------------->
+                        <div class="box-top">
+        
+                            <!--profile----->
+                            <div class="profile">
+                                <div class="name-user">
+                                    <strong>Product Analyst</strong>
+                                    <span>TAX PREPARATION SERVICE IN PENNSYLVANIA</span>
+                                </div>
+                            </div>
+        
+                            <div class="reviews1">
+                                <img  src="assests/images/logo.png">
+
+                            </div>
+                            <!--reviews------>
+                            <!-- <div class="reviews">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i><!--Empty star
+                            </div> -->
+        
+                        </div>
+        
+                        <!--Comments---------------------------------------->
+                        <div class="client-comment">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, quaerat quis? Provident temporibus architecto asperiores nobis maiores nisi a. Quae doloribus ipsum aliquam tenetur voluptates incidunt blanditiis sed atque cumque.</p>
+                        </div>
+        
+                    </div>
+        
+                    <!--BOX-2-------------->
+                    <div class="testimonial-box">
+        
+                        <!--top------------------------->
+                        <div class="box-top">
+        
+                            <!--profile----->
+                            <div class="profile">
+                                <div class="name-user">
+                                    <strong>Director of IT</strong>
+                                    <span>Trade Association</span>
+                                </div>
+                            </div>
+        
+                            <div class="reviews2">
+                                <img  src="assests/images/logo.png">
+
+                            </div>
+                            <!--reviews------>
+                            <!-- <div class="reviews">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i><!--Empty star
+                            </div> -->
+        
+                        </div>
+        
+                        <!--Comments---------------------------------------->
+                        <div class="client-comment">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, quaerat quis? Provident temporibus architecto asperiores nobis maiores nisi a. Quae doloribus ipsum aliquam tenetur voluptates incidunt blanditiis sed atque cumque.</p>
+                        </div>
+        
+                    </div>
+        
+                    <!--BOX-3-------------->
+                    <div class="testimonial-box">
+        
+                        <!--top------------------------->
+                        <div class="box-top">
+        
+                            <!--profile----->
+                            <div class="profile">
+                                <!--img---->
+                                <!-- <div class="profile-img">
+                                    <img src="assests/images/c-3.jpg" />
+                                </div> -->
+                                <!--name-and-username-->
+                                <div class="name-user">
+                                    <strong>Marketing Director</strong>
+                                    <span>SOFTWARE COMPANY IN MT</span>
+                                </div>
+                            </div>
+        
+                            <div class="reviews3">
+                                <img  src="assests/images/logo.png">
+
+                            </div>
+                            <!--reviews------>
+                            <!-- <div class="reviews">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i><!--Empty star
+                            </div> -->
+        
+                        </div>
+        
+                        <!--Comments---------------------------------------->
+                        <div class="client-comment">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, quaerat quis? Provident temporibus architecto asperiores nobis maiores nisi a. Quae doloribus ipsum aliquam tenetur voluptates incidunt blanditiis sed atque cumque.</p>
+                        </div>
+        
+                    </div>
+        
+        
+                    <!--BOX-4-------------->
+                    <div class="testimonial-box">
+        
+                        <!--top------------------------->
+                        <div class="box-top">
+        
+                            <!--profile----->
+                            <div class="profile">
+                                <!--img---->
+                                <!-- <div class="profile-img">
+                                    <img src="assests/images/c-4.jpg" />
+                                </div> -->
+                                <!--name-and-username-->
+                                <div class="name-user">
+                                    <strong>Director of Consumer Products</strong>
+                                    <span>
+                                        ADVERTISING AGENCY IN COLORADO
+                                    </span>
+    
+                                </div>
+                            </div>
+        
+                            <div class="reviews">
+                                <img  src="assests/images/logo.png">
+
+                            </div>
+                            <!--reviews------>
+                            <!-- <div class="reviews">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i><!--Empty star
+                            </div> -->
+        
+                        </div>
+        
+                        <!--Comments---------------------------------------->
+                        <div class="client-comment">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, quaerat quis? Provident temporibus architecto asperiores nobis maiores nisi a. Quae doloribus ipsum aliquam tenetur voluptates incidunt blanditiis sed atque cumque.</p>
+                        </div>
+        
+                    </div>
+        
+                </div>
+        
+            </section>
+        </div>
+        <div class="tab_content tab_4">
+            <div class="testimonials">
+                <div class="inner">
+                  <h1>Testimonials</h1>
+                  <div class="border"></div>
+          
+                  <div class="row">
+                    <div class="col">
+                      <div class="testimonial">
+                        <!-- <img src="p1.png" alt=""> -->
+                        <img  src="assests/images/logo.png">
+                        <div class="name">Full name</div>
+                        <!-- <div class="stars">
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                        </div> -->
+          
+                        <p>
+                          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                        </p>
+                      </div>
+                    </div>
+          
+                    <div class="col">
+                      <div class="testimonial">
+                        <!-- <img src="p2.png" alt=""> -->
+                        <img  src="assests/images/logo.png">
+                        <div class="name">Full name</div>
+                        <!-- <div class="stars">
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="far fa-star"></i>
+                          <i class="far fa-star"></i>
+                        </div>
+           -->
+                        <p>
+                          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                        </p>
+                      </div>
+                    </div>
+          
+                    <div class="col">
+                      <div class="testimonial">
+                        <!-- <img src="p3.png" alt=""> -->
+                        <img  src="assests/images/logo.png">
+                        <div class="name">Full name</div>
+                        <!-- <div class="stars">
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="far fa-star"></i>
+                        </div> -->
+          
+                        <p>
+                          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </div>
+        <div class="tab_content tab_5">
+            <section id="testimonials">
+    
+                <!--heading--->
+                <div class="testimonial-heading">
+                    <span>Testimonials</span>
+                    <h1>Clients Says</h1>
+                </div>
+        
+                <!--testimonials-box-container------>
+                <div class="testimonial-box-container">
+        
+                    <!--BOX-1-------------->
+                    <div class="testimonial-box">
+        
+                        <!--top------------------------->
+                        <div class="box-top">
+        
+                            <!--profile----->
+                            <div class="profile">
+                                <div class="name-user">
+                                    <strong>Product Analyst</strong>
+                                    <span>TAX PREPARATION SERVICE IN PENNSYLVANIA</span>
+                                </div>
+                            </div>
+        
+                            <div class="reviews">
+                                <img  src="assests/images/logo.png">
+
+                            </div>
+                            <!--reviews------>
+                            <!-- <div class="reviews">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i><!--Empty star
+                            </div> -->
+        
+                        </div>
+        
+                        <!--Comments---------------------------------------->
+                        <div class="client-comment">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, quaerat quis? Provident temporibus architecto asperiores nobis maiores nisi a. Quae doloribus ipsum aliquam tenetur voluptates incidunt blanditiis sed atque cumque.</p>
+                        </div>
+        
+                    </div>
+        
+                    <!--BOX-2-------------->
+                    <div class="testimonial-box">
+        
+                        <!--top------------------------->
+                        <div class="box-top">
+        
+                            <!--profile----->
+                            <div class="profile">
+                                <div class="name-user">
+                                    <strong>Director of IT</strong>
+                                    <span>Trade Association</span>
+                                </div>
+                            </div>
+        
+                            <div class="reviews">
+                                <img  src="assests/images/logo.png">
+
+                            </div>
+                            <!--reviews------>
+                            <!-- <div class="reviews">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i><!--Empty star
+                            </div> -->
+        
+                        </div>
+        
+                        <!--Comments---------------------------------------->
+                        <div class="client-comment">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, quaerat quis? Provident temporibus architecto asperiores nobis maiores nisi a. Quae doloribus ipsum aliquam tenetur voluptates incidunt blanditiis sed atque cumque.</p>
+                        </div>
+        
+                    </div>
+        
+                    <!--BOX-3-------------->
+                    <div class="testimonial-box">
+        
+                        <!--top------------------------->
+                        <div class="box-top">
+        
+                            <!--profile----->
+                            <div class="profile">
+                                <!--img---->
+                                <!-- <div class="profile-img">
+                                    <img src="assests/images/c-3.jpg" />
+                                </div> -->
+                                <!--name-and-username-->
+                                <div class="name-user">
+                                    <strong>Marketing Director</strong>
+                                    <span>SOFTWARE COMPANY IN MT</span>
+                                </div>
+                            </div>
+        
+                            <div class="reviews">
+                                <img  src="assests/images/logo.png">
+
+                            </div>
+                            <!--reviews------>
+                            <!-- <div class="reviews">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i><!--Empty star
+                            </div> -->
+        
+                        </div>
+        
+                        <!--Comments---------------------------------------->
+                        <div class="client-comment">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, quaerat quis? Provident temporibus architecto asperiores nobis maiores nisi a. Quae doloribus ipsum aliquam tenetur voluptates incidunt blanditiis sed atque cumque.</p>
+                        </div>
+        
+                    </div>
+        
+        
+                    <!--BOX-4-------------->
+                    <div class="testimonial-box">
+        
+                        <!--top------------------------->
+                        <div class="box-top">
+        
+                            <!--profile----->
+                            <div class="profile">
+                                <!--img---->
+                                <!-- <div class="profile-img">
+                                    <img src="assests/images/c-4.jpg" />
+                                </div> -->
+                                <!--name-and-username-->
+                                <div class="name-user">
+                                    <strong>Director of Consumer Products</strong>
+                                    <span>
+                                        ADVERTISING AGENCY IN COLORADO
+                                    </span>
+    
+                                </div>
+                                
+                            </div>
+                            <div class="reviews">
+                                <img  src="assests/images/logo.png">
+
+                            </div>
+                            <!--reviews------>
+                            <!-- <div class="reviews">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i><!--Empty star
+                            </div> -->
+        
+                        </div>
+        
+                        <!--Comments---------------------------------------->
+                        <div class="client-comment">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, quaerat quis? Provident temporibus architecto asperiores nobis maiores nisi a. Quae doloribus ipsum aliquam tenetur voluptates incidunt blanditiis sed atque cumque.</p>
+                        </div>
+        
+                    </div>
+        
+                </div>
+        
+            </section>
+        </div>
+        <div class="tab_content tab_6">
+            <div class="testimonials">
+                <div class="inner">
+                  <h1>Testimonials</h1>
+                  <div class="border"></div>
+          
+                  <div class="row">
+                    <div class="col">
+                      <div class="testimonial">
+                        <!-- <img src="p1.png" alt=""> -->
+                        <img  src="assests/images/logo.png">
+                        <div class="name">Full name</div>
+                        <!-- <div class="stars">
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                        </div> -->
+          
+                        <p>
+                          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                        </p>
+                      </div>
+                    </div>
+          
+                    <div class="col">
+                      <div class="testimonial">
+                        <!-- <img src="p2.png" alt=""> -->
+                        <img  src="assests/images/logo.png">
+                        <div class="name">Full name</div>
+                        <!-- <div class="stars">
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="far fa-star"></i>
+                          <i class="far fa-star"></i>
+                        </div> -->
+          
+                        <p>
+                          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                        </p>
+                      </div>
+                    </div>
+          
+                    <div class="col">
+                      <div class="testimonial">
+                        <!-- <img src="p3.png" alt=""> -->
+                        <img  src="assests/images/logo.png">
+                        <div class="name">Full name</div>
+                        <!-- <div class="stars">
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="far fa-star"></i>
+                        </div> -->
+          
+                        <p>
+                          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </div>
+        <div class="tab_content tab_7">
+            <section id="testimonials">
+    
+                <!--heading--->
+                <div class="testimonial-heading">
+                    <span>Testimonials</span>
+                    <h1>Clients Says</h1>
+                </div>
+        
+                <!--testimonials-box-container------>
+                <div class="testimonial-box-container">
+        
+                    <!--BOX-1-------------->
+                    <div class="testimonial-box">
+        
+                        <!--top------------------------->
+                        <div class="box-top">
+        
+                            <!--profile----->
+                            <div class="profile">
+                                <div class="name-user">
+                                    <strong>Product Analyst</strong>
+                                    <span>TAX PREPARATION SERVICE IN PENNSYLVANIA</span>
+                                </div>
+                            </div>
+        
+                            <div class="reviews">
+                                <img  src="assests/images/logo.png">
+
+                            </div>
+                            <!--reviews------>
+                            <!-- <div class="reviews">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i><!--Empty star
+                            </div> -->
+        
+                        </div>
+        
+                        <!--Comments---------------------------------------->
+                        <div class="client-comment">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, quaerat quis? Provident temporibus architecto asperiores nobis maiores nisi a. Quae doloribus ipsum aliquam tenetur voluptates incidunt blanditiis sed atque cumque.</p>
+                        </div>
+        
+                    </div>
+        
+                    <!--BOX-2-------------->
+                    <div class="testimonial-box">
+        
+                        <!--top------------------------->
+                        <div class="box-top">
+        
+                            <!--profile----->
+                            <div class="profile">
+                                <div class="name-user">
+                                    <strong>Director of IT</strong>
+                                    <span>Trade Association</span>
+                                </div>
+                            </div>
+        
+                            <div class="reviews">
+                                <img  src="assests/images/logo.png">
+
+                            </div>
+                            <!--reviews------>
+                            <!-- <div class="reviews">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i><!--Empty star
+                            </div> -->
+        
+                        </div>
+        
+                        <!--Comments---------------------------------------->
+                        <div class="client-comment">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, quaerat quis? Provident temporibus architecto asperiores nobis maiores nisi a. Quae doloribus ipsum aliquam tenetur voluptates incidunt blanditiis sed atque cumque.</p>
+                        </div>
+        
+                    </div>
+        
+                    <!--BOX-3-------------->
+                    <div class="testimonial-box">
+        
+                        <!--top------------------------->
+                        <div class="box-top">
+        
+                            <!--profile----->
+                            <div class="profile">
+                                <!--img---->
+                                <!-- <div class="profile-img">
+                                    <img src="assests/images/c-3.jpg" />
+                                </div> -->
+                                <!--name-and-username-->
+                                <div class="name-user">
+                                    <strong>Marketing Director</strong>
+                                    <span>SOFTWARE COMPANY IN MT</span>
+                                </div>
+                            </div>
+        
+                            <div class="reviews">
+                                <img  src="assests/images/logo.png">
+
+                            </div>
+                            <!--reviews------>
+                            <!-- <div class="reviews">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i><!--Empty star
+                            </div> -->
+        
+                        </div>
+        
+                        <!--Comments---------------------------------------->
+                        <div class="client-comment">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, quaerat quis? Provident temporibus architecto asperiores nobis maiores nisi a. Quae doloribus ipsum aliquam tenetur voluptates incidunt blanditiis sed atque cumque.</p>
+                        </div>
+        
+                    </div>
+        
+        
+                    <!--BOX-4-------------->
+                    <div class="testimonial-box">
+        
+                        <!--top------------------------->
+                        <div class="box-top">
+        
+                            <!--profile----->
+                            <div class="profile">
+                                <!--img---->
+                                <!-- <div class="profile-img">
+                                    <img src="assests/images/c-4.jpg" />
+                                </div> -->
+                                <!--name-and-username-->
+                                <div class="name-user">
+                                    <strong>Director of Consumer Products</strong>
+                                    <span>
+                                        ADVERTISING AGENCY IN COLORADO
+                                    </span>
+    
+                                </div>
+                            </div>
+        
+                            <div class="reviews">
+                                <img  src="assests/images/logo.png">
+
+                            </div>
+                            <!--reviews------>
+                            <!-- <div class="reviews">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i><!--Empty star
+                            </div> -->
+        
+                        </div>
+        
+                        <!--Comments---------------------------------------->
+                        <div class="client-comment">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, quaerat quis? Provident temporibus architecto asperiores nobis maiores nisi a. Quae doloribus ipsum aliquam tenetur voluptates incidunt blanditiis sed atque cumque.</p>
+                        </div>
+        
+                    </div>
+        
+                </div>
+        
+            </section>
+        </div>
+        <div class="tab_content tab_8">
+            <div class="testimonials">
+                <div class="inner">
+                  <h1>Testimonials</h1>
+                  <div class="border"></div>
+          
+                  <div class="row">
+                    <div class="col">
+                      <div class="testimonial">
+                        <!-- <img src="p1.png" alt=""> -->
+                        <img  src="assests/images/logo.png">
+                        <div class="name">Full name</div>
+                        <!-- <div class="stars">
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                        </div> -->
+          
+                        <p>
+                          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                        </p>
+                      </div>
+                    </div>
+          
+                    <div class="col">
+                      <div class="testimonial">
+                        <!-- <img src="p2.png" alt=""> -->
+                        <img  src="assests/images/logo.png">
+                        <div class="name">Full name</div>
+                        <!-- <div class="stars">
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="far fa-star"></i>
+                          <i class="far fa-star"></i>
+                        </div> -->
+          
+                        <p>
+                          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                        </p>
+                      </div>
+                    </div>
+          
+                    <div class="col">
+                      <div class="testimonial">
+                        <!-- <img src="p3.png" alt=""> -->
+                        <img  src="assests/images/logo.png">
+                        <div class="name">Full name</div>
+                        <!-- <div class="stars">
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="far fa-star"></i>
+                        </div> -->
+          
+                        <p>
+                          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
