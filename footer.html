@@ -4,13 +4,13 @@
 		<div class="footer-col">
 			<h4><span>Company</span></h4>
 			<ul style="padding:0;margin:0;">
-				<li><a href="about.html">Career at softrate</a></li>
-				<li><a href="service.html">our services</a></li>
+				<li><a href="about.html" id="footer-about">Career at softrate</a></li>
+				<li><a href="service.html" id="footer-service">our services</a></li>
 				<li>
-					<a href="privacypolicy.html">Privacy Policy</a>
+					<a href="privacypolicy.html" id="footer-policy">Privacy Policy</a>
 				</li>
-				<li><a href="testimonials.html">Testimonials</a></li>
-				<li><a href="Terms and Conditions.html">Terms of service</a></li>
+				<li><a href="testimonials.html" id="footer-test">Testimonials</a></li>
+				<li><a href="Terms_and_Conditions.html" id="footer-terms">Terms of service</a></li>
 			</ul>
 		</div>
 		<div class="footer-col">
@@ -45,3 +45,43 @@
 		</div>
 	</div>
 </div>
+
+<script>
+    var loc = window.location.href;
+    
+    if(loc.includes("service.html")) {
+        document.getElementById("footer-service").href = "#";
+        document.getElementById("footer-test").href = "testimonials.html";
+        document.getElementById("footer-about").href = "about.html";
+        document.getElementById("footer-policy").href = "privacypolicy.html";
+        document.getElementById("footer-terms").href = "Terms_and_Conditions.html";
+    }
+    if(loc.includes("about.html")) {
+        document.getElementById("footer-service").href = "service.html";
+        document.getElementById("footer-test").href = "testimonials.html";
+        document.getElementById("footer-about").href = "#";
+        document.getElementById("footer-policy").href = "privacypolicy.html";
+        document.getElementById("footer-terms").href = "Terms_and_Conditions.html";
+    }
+    if(loc.includes("testimonials.html")) {
+        document.getElementById("footer-service").href = "service.html";
+        document.getElementById("footer-test").href = "#";
+        document.getElementById("footer-about").href = "about.html";
+        document.getElementById("footer-policy").href = "privacypolicy.html";
+        document.getElementById("footer-terms").href = "Terms_and_Conditions.html";
+    }
+    if(loc.includes("Terms_and_Conditions.html")) {
+        document.getElementById("footer-service").href = "service.html";
+        document.getElementById("footer-test").href = "testimonials.html";
+        document.getElementById("footer-about").href = "about.html";
+        document.getElementById("footer-policy").href = "privacypolicy.html";
+        document.getElementById("footer-terms").href = "#";
+    }
+    if(loc.includes("privacypolicy.html")) {
+        document.getElementById("footer-service").href = "service.html";
+        document.getElementById("footer-test").href = "testimonials.html";
+        document.getElementById("footer-about").href = "about.html";
+        document.getElementById("footer-policy").href = "#";
+        document.getElementById("footer-terms").href = "Terms_and_Conditions.html";
+    }
+</script>
