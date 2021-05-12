@@ -1095,7 +1095,9 @@
     }
     
     .cont-media {
-        padding-top: 60px;
+        display: flex;
+        flex-wrap: wrap;
+        place-content: center;
     }
     
     .cont-media a {
@@ -1230,6 +1232,7 @@
         }
         .cont-info {
             width: 100%;
+            text-align: center;
         }
         .full-page-layer {
             display: none;

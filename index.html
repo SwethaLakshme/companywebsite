@@ -80,21 +80,8 @@
     <!--preloader end-->
 
     <!--top nav-->
-    <div class="nav">
-        <div class="nav-logo">
-            <img src="assests/images/softrate-logo.png" alt="logo" srcset="">
-            <img src="assests/images/softrate-logo.png" alt="logo-resp">
-        </div>
-        <div class="nav-bar">
-            <a href="#">Home</a>
-            <a href="about.html">About us</a>
-            <a href="service.html">Services</a>
-            <a href="testimonials.html">Testimonials</a>
-
-        </div>
-        <div class="nav-terms-policy">
-            <a href="contact.html">Contact us</a>
-        </div>
+    <div class="nav" id="nav">
+        
     </div>
     <!--top nav end-->
 
@@ -296,36 +283,24 @@
         <footer class="footer" id="footer">
             
         </footer>
-    <script>
-        $(function(){
-            $('#footer').load('footer.html')
-        }
-        );
-    </script>
-    <section>
-
-
-
-        <div class="down-nav">
-
-            <a href="#">
-                <i class="bi bi-house-door-fill"></i>
-            </a>
-            <a href="about.html">
-                <i class="bi bi-file-person"></i>
-            </a>
-            <a href="service.html">
-                <i class="bi bi-gear-fill"></i>
-            </a>
-            <a href="testimonials.html">
-                <i class="bi bi-person-check-fill"></i>
-            </a>
-            <a href="contact.html">
-                <i class="bi bi-person-lines-fill"></i>
-            </a>
-
-        </div>
-    </section>
+        <section>
+            <div class="down-nav">    
+            </div>  
+        </section>
+        <script>
+            $(function(){
+                $('#nav').load('header.html')
+            }
+            );
+            $(function(){
+                $('#footer').load('footer.html')
+            }
+            );
+            $(function(){
+                $('.down-nav').load('downnav.html')
+            }
+            );
+        </script>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
     <script src="assests\js\home.js"></script>

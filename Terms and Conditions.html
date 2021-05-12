@@ -6,8 +6,7 @@
 
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-    <link rel="icon" href="assests/images/softrate-logo.png" type="image/icon type">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link rel="icon" href="assests/images/logo.png" type="image/icon type">
     
     <!-- JQuery -->    
     <script src="assests/js/jquery-2.1.0.min.js"></script>
@@ -27,10 +26,7 @@
     <title >Terms and Conditions</title>
 
     
-        <!-- Favicons -->
-          <link href="assets/img/favicon.png" rel="icon">
-          <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
-        </head>
+        <!-- Favicons -->        
 
 </head>
 <body>
@@ -50,21 +46,8 @@
 
 
     <!--top nav-->
-    <div class="nav">
-        <div class="nav-logo">
-            <img src="assests/images/softrate-logo.png" alt="logo" srcset="">
-            <img src="assests/images/softrate-logo.png" alt="logo-resp">
-        </div>
-        <div class="nav-bar">
-            <a href="index.html">Home</a>
-            <a href="about.html">About us</a>
-            <a href="service.html">Services</a>
-            <a href="testimonials.html">Testimonials</a>
-
-        </div>
-        <div class="nav-terms-policy">
-            <a href="contact.html">Contact us</a>
-        </div>
+    <div class="nav"  id="nav">
+        
     </div>
      <!--top nav end-->
 
@@ -197,79 +180,33 @@
 
 <p>As long as the website and the information and services on the website are rovided free of charge, we will not be liable for any loss or damage of any nature.</p> 
 
-<footer class="footer">
-    <div class="containers">
-        <div class="rows">
-            <div class="footer-col">
-                <h4><span>Company</span></h4>
-                <ul style="padding:0;margin:0;">
-                    <li><a href="about.html">Career at softrate</a></li>
-                    <li><a href="service.html">Our services</a></li>
-                    <li>
-                        <a href="privacypolicy.html">Privacy Policy</a>
-                    </li>
-                    <li><a href="testimonials.html">Testimonials</a></li>
-                    <li><a href="Terms and Conditions.html">Terms of service</a></li>
-                </ul>
-            </div>
-            <div class="footer-col">
-                <h4><span>Get help</span></h4>
-                <ul style="padding:0;margin:0;">
-                    <li>Contact Us</li>
-                    <li>Phone: <a href="tel:+916383612433">+916383612433</a></li>
-                    <li>Email: <a href="mailto:softrateindia@gmail.com">softrateindia@gmail.com</a></li>
-                </ul>
-            </div>
-            <div class="footer-col">
-                <h4><span>Love the hustle</span></h4>
-                <ul style="padding: 0;">
-                    <!-- <div class="hustle"> -->
-                  
-                    <li><a href="curiouswings.ml"><img src="assests/images/curiouswingslogo.png" alt=""></a></li>
-                    <li><a href="#"><img src="assests/images/deep_drones.png" alt=""></a></li>
-                    <li><a href="#"><img src="assests/images/innovationhub.png" alt=""></a></li>
-                   
-                <!-- </div> -->
-            </ul>
-            </div>
-            <div class="footer-col">
-                <h4><span>follow us</span></h4>
-                <div class="social-links">
-                    <a href="#"><i class="fab fa-facebook-f"></i></a>
-                    <a href="#"><i class="fab fa-twitter"></i></a>
-                    <a href="#"><i class="fab fa-instagram"></i></a>
-                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                        <a href="#"><i class="fab fa-youtube"></i></a>
-                </div> 
-            </div>
-        </div>
-    </div>
+<footer class="footer" id="footer">
+            
 </footer>
 
 <section>
 
-
-
     <div class="down-nav">
 
-        <a href="index.html">
-            <i class="bi bi-house-door-fill"></i>
-        </a>
-        <a href="about.html">
-            <i class="bi bi-file-person"></i>
-        </a>
-        <a href="service.html">
-            <i class="bi bi-gear-fill"></i>
-        </a>
-        <a href="testimonials.html">
-            <i class="bi bi-person-check-fill"></i>          
-              </a>
-        <a href="contact.html">
-            <i class="bi bi-person-lines-fill"></i>
-        </a>
+        
         
     </div>
+
 </section>
+<script>
+    $(function(){
+        $('#nav').load('header.html')
+    }
+    );
+    $(function(){
+        $('#footer').load('footer.html')
+    }
+    );
+    $(function(){
+        $('.down-nav').load('downnav.html')
+    }
+    );
+</script>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
 <script src="assests\js\home.js"></script>
