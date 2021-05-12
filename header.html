@@ -3,12 +3,52 @@
     <img src="assests/images/softrate-logo.png" alt="logo-resp">
 </div>
 <div class="nav-bar">
-    <a href="index.html">Home</a>
-    <a href="about.html">About us</a>
-    <a href="service.html">Services</a>
-    <a href='testimonials.html'>Testimonials </a>
+    <a href="#" id="home-page">Home</a>
+    <a href="about.html" id="about-page">About us</a>
+    <a href="service.html" id="service-page">Services</a>
+    <a href='testimonials.html' id="test-page">Testimonials </a>
 
 </div>
 <div class="nav-terms-policy">
-    <a href="contact.html">Contact us</a>
+    <a href="contact.html" id="contact-page">Contact us</a>
 </div>
+
+<script>
+    var loc = window.location.href;
+    
+    if(loc.includes("service.html")) {
+        document.getElementById("service-page").href = "#";
+        document.getElementById("test-page").href = "testimonials.html";
+        document.getElementById("about-page").href = "about.html";
+        document.getElementById("home-page").href = "index.html";
+        document.getElementById("contact-page").href = "contact.html";
+    }
+    if(loc.includes("about.html")) {
+        document.getElementById("service-page").href = "service.html";
+        document.getElementById("test-page").href = "testimonials.html";
+        document.getElementById("about-page").href = "#";
+        document.getElementById("home-page").href = "index.html";
+        document.getElementById("contact-page").href = "contact.html";
+    }
+    if(loc.includes("testimonials.html")) {
+        document.getElementById("service-page").href = "service.html";
+        document.getElementById("test-page").href = "#";
+        document.getElementById("about-page").href = "about.html";
+        document.getElementById("home-page").href = "index.html";
+        document.getElementById("contact-page").href = "contact.html";
+    }
+    if(loc.includes("contact.html")) {
+        document.getElementById("service-page").href = "service.html";
+        document.getElementById("test-page").href = "testimonials.html";
+        document.getElementById("about-page").href = "about.html";
+        document.getElementById("home-page").href = "index.html";
+        document.getElementById("contact-page").href = "#";
+    }
+    if(loc.includes("index.html")) {
+        document.getElementById("service-page").href = "service.html";
+        document.getElementById("test-page").href = "testimonials.html";
+        document.getElementById("about-page").href = "about.html";
+        document.getElementById("home-page").href = "#";
+        document.getElementById("contact-page").href = "contact.html";
+    }
+</script>
