@@ -71,29 +71,30 @@
 
 
                 <div class="cont-form">
-                    <form method="POST">
+                    <form method="POST" data-netlify="true">
 
                         <div class="form-info">
                             <div class="form-name">
-                                <label for="">Name :</label>
-                                <input type="text" name="" placeholder="Name" id="">
+                                <label>Name :</label>
+                                <input type="text" name="name" placeholder="Name" id="">
                             </div>
                             <div class="form-email">
                                 <label for="">Email :</label>
-                                <input type="email" email="" placeholder="Email" id="">
+                                <input type="email" name="email" placeholder="Email" id="">
                             </div>
                         </div>
 
                         <div class="form-subject">
                             <label for="">Subject :</label>
-                            <input type="text" placeholder="Subject">
+                            <input type="text" name="subject" placeholder="Subject">
                         </div>
                         <div class="form-message">
                             <label for="">Message :</label>
-                            <textarea name="" id="" cols="10" rows="7" placeholder="Write your message"></textarea>
+                            <textarea name="message" id="" cols="10" rows="7" placeholder="Write your message"></textarea>
                         </div>
+                        <div data-netlify-recaptcha="true"></div>
                         <div class="btn">
-                            <button type="submit"><a href="#">Send Message</a></button>
+                            <button type="submit"><a>Send Message</a></button>
                         </div>
                     </form>
                 </div>
