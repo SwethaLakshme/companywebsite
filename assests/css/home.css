@@ -707,7 +707,9 @@ section {
     color: #fff;
     margin-bottom: 0;
 }
-
+.footer-col .company ul li a{
+    text-align:left;
+}
 /* About Us Section
 --------------------------------*/
 
