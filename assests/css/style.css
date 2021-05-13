@@ -1306,6 +1306,13 @@
         .full-page-layer {
             display: none;
         }
+        
+  #portfolio .portfolio-wrap {
+    box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.08);
+    transition: 0.3s;
+    height: 100%;
+    padding-bottom: 1vh;
+  }
     }
     
     .Landing-page-policy {
