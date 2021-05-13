@@ -33,6 +33,10 @@
     <link rel="stylesheet" href="assests/css/style.css">
     <script src="assests/js/jquery-2.1.0.min.js"></script>
     <script src="assests\js\custom.js"></script>
+    <script src="assests\js\isotope-layout\isotope.pkgd.min.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+
 
     <!-- CSS only -->
     <link rel="stylesheet" href="assests/css/web19201.css">
@@ -209,113 +213,154 @@
     </div>
 
 
-    <div class="portfolio" id="portfolio">
-        <div class="portfolio-head">
-            <h2>Our Portfolio</h2>
-            <p>Helping Tech companies build better products</p>
-        </div>
-
-        <div class="portfolio-projects-grid">
-            <div class="portfolio-details">
+    <section id="portfolio" class="section-bg">
+        <div class="container" data-aos="fade-up">
   
-                <div class="portfolio-projects">
-                    <div class="portfolio-projects-img">
-                        <img src="assests/images/simpletrust.png" alt="" srcset="">
-                    </div>
-                    <div class="portfolio-projects-cont">
-                        <div class="portfolio-projects-cont-head">
-                            <h2>simpletrust</h2>
-                            <p>Mobile app for Covid</p>
-                        </div>
-                        <div class="portfolio-redirect"><a href="http://simpletrust.org/" target="_blank">Preview</a></div>
-                    </div>
-                </div>
-
-                <div class="portfolio-projects">
-                    <div class="portfolio-projects-img">
-                        <img src="assests\img\clients\exotrixlearning.jpg" alt="" srcset="">
-                    </div>
-                    <div class="portfolio-projects-cont">
-                        <div class="portfolio-projects-cont-head">
-                            <h2>exotrixlearning</h2>
-                            <p>Mobile app for Covid</p>
-                        </div>
-                        <div class="portfolio-redirect"><a href="https://exotrixlearning.netlify.app/" target="_blank">Preview</a></div>
-                    </div>
-                </div>
-
-       
-                <div class="portfolio-projects">
-                    <div class="portfolio-projects-img">
-                        <img src="assests/images/Cor-x.png" alt="" srcset="">
-                    </div>
-                    <div class="portfolio-projects-cont">
-                        <div class="portfolio-projects-cont-head">
-                            <h2>COR-X</h2>
-                            <p>Mobile app for Covid</p>
-                        </div>
-                        <div class="portfolio-redirect"><a
-                                href="https://github.com/Balaji-star/CORX_app/blob/master/README.md" target="_blank">Preview</a></div>
-                    </div>
-                </div>
-
-                <div class="portfolio-projects">
-                    <div class="portfolio-projects-img">
-                        <img src="assests/images/balaji.png" alt="" srcset="">
-                    </div>
-                    <div class="portfolio-projects-cont">
-                        <div class="portfolio-projects-cont-head">
-                            <h2>Portfolio Balaji</h2>
-                            <p>Portfolio for our client Mr.Balaji</p>
-                        </div>
-                        <div class="portfolio-redirect"><a href="http://balajistar.ml/" target="_blank">Preview</a></div>
-                    </div>
-                </div>
-
-                <div class="portfolio-projects">
-                    <div class="portfolio-projects-img">
-                        <img src="assests/images/info-hub.png" alt="" srcset="">
-                    </div>
-                    <div class="portfolio-projects-cont">
-                        <div class="portfolio-projects-cont-head">
-                            <h2>Department Blog</h2>
-                            <p>Offcial department blog</p>
-                        </div>
-                        <div class="portfolio-redirect"><a href="http://infohubhome.000webhostapp.com/" target="_blank">Preview</a>
-                        </div>
-                    </div>
-                </div>
-
-
-
-
-                <div class="portfolio-projects">
-                    <div class="portfolio-projects-img">
-                        <img src="assests/images/curiouswings.png" alt="" srcset="">
-                    </div>
-                    <div class="portfolio-projects-cont">
-                        <div class="portfolio-projects-cont-head">
-                            <h2>Curiouswings</h2>
-                            <p>Mobile app for Covid</p>
-                        </div>
-                        <div class="portfolio-redirect"><a href="https://curiouswings.ml/" target="_blank">Preview</a></div>
-                    </div>
-                </div>
-
-
-
-
-            </div>
-            <!-- <div class="portfolio-projects"></div>
-            <div class="portfolio-projects"></div>
-            <div class="portfolio-projects"></div>
-            <div class="portfolio-projects"></div>
-            <div class="portfolio-projects"></div>
-            <div class="portfolio-projects"></div>
-            <div class="portfolio-projects"></div> -->
-
+          <header class="section-header">
+            <h3 class="section-title">Our Portfolio</h3>
+          </header>
+  
+          <div class="row" data-aos="fade-up" data-aos-delay="100"">
+        <div class=" col-lg-12">
+            <ul id="portfolio-flters">
+              <li data-filter="*" class="filter-active">All</li>
+              <li data-filter=".filter-app">App</li>
+              <li data-filter=".filter-card">Portfolio</li>
+              <li data-filter=".filter-web">Web</li>
+            </ul>
+          </div>
         </div>
-    </div>
+  
+        <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
+  
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <figure>
+                <img src="assets/img/portfolio/corxlogo.png" class="img-fluid" alt="">
+                <a href="assets/img/portfolio/corxlogo.png" data-gall="portfolioGallery"  class="link-preview venobox" title="COR X app"><i class="ion ion-eye"></i></a>
+                <a href="https://github.com/Balaji-star/CORX_app/blob/master/README.md" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+              </figure>
+              
+               
+  
+              <div class="portfolio-info">
+                <h4><a href="https://github.com/Balaji-star/CORX_app/blob/master/README.md">COR X</a></h4>
+                <p>Mobile app for COVID </p>
+              </div>
+            </div>
+          </div>
+  
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <figure>
+                <img src="assets/img/portfolio/appfesto.png" class="img-fluid" alt="">
+                <a href="assets/img/portfolio/appfesto.png" class="link-preview venobox" data-gall="portfolioGallery" title="appfesto 2020"><i class="ion ion-eye"></i></a>
+                <a href="http://sairam.edu.in/appfesto2020/" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+              </figure>
+  
+              <div class="portfolio-info">
+                <h4><a href="http://sairam.edu.in/appfesto2020/">App Festo 2020</a></h4>
+                <p>App Festo 2020 Organizing by Sri Sairam Engineering College</p>
+              </div>
+            </div>
+          </div>
+  
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <figure>
+                <img src="assets/img/portfolio/app2.jpg" class="img-fluid" alt="">
+                <a href="assets/img/portfolio/app2.jpg" class="link-preview venobox" data-gall="portfolioGallery" title="App 2"><i class="ion ion-eye"></i></a>
+                <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+              </figure>
+  
+              <div class="portfolio-info">
+                <h4><a href="#">Help2Educate</a></h4>
+                <p>Mobile app to educate underpreviliged people</p>
+              </div>
+            </div>
+          </div>
+  
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-wrap">
+              <figure>
+                <img src="assets/img/portfolio/Bport.png" class="img-fluid" alt="">
+                <a href="assets/img/portfolio/Bport.png" class="link-preview venobox" data-gall="portfolioGallery" title="Portfolio Balaji"><i class="ion ion-eye"></i></a>
+                <a href="https://balaji-star.github.io/" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+              </figure>
+  
+              <div class="portfolio-info">
+                <h4><a href="https://balaji-star.github.io/">Portfolio Balaji</a></h4>
+                <p>Portfolio for our client Mr.Balaji</p>
+              </div>
+            </div>
+          </div>
+  
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <figure>
+                <img src="assets/img/portfolio/corxweb.png" height="200px" class="img-fluid" alt="">
+                <a href="assets/img/portfolio/corxweb.png" class="link-preview venobox" data-gall="portfolioGallery" title="COR X web"><i class="ion ion-eye"></i></a>
+                <a href="http://balaji-canada.github.io/" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+              </figure>
+  
+              <div class="portfolio-info">
+                <h4><a href="http://balaji-canada.github.io/">COR X Web App</a></h4>
+                <p>Web application to tackle COVID-19</p>
+              </div>
+            </div>
+          </div>
+  
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <figure>
+                <img src="assets/img/portfolio/app3.jpg" class="img-fluid" alt="">
+                <a href="assets/img/portfolio/app3.jpg" class="link-preview venobox" data-gall="portfolioGallery" title="App 3"><i class="ion ion-eye"></i></a>
+                <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+              </figure>
+  
+              <div class="portfolio-info">
+                <h4><a href="#">Help2Feed</a></h4>
+                <p>Mobile app for Food Waste Management</p>
+              </div>
+            </div>
+          </div>
+  
+          
+  
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-wrap">
+              <figure>
+                <img src="assets/img/portfolio/sobha.png" class="img-fluid" alt="">
+                <a href="assets/img/portfolio/sobha.png" class="link-preview venobox" data-gall="portfolioGallery" title="Card 3"><i class="ion ion-eye"></i></a>
+                <a href="http://sobhanasakthivel.netlify.app/" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+              </figure>
+  
+              <div class="portfolio-info">
+                <h4><a href="http://sobhanasakthivel.netlify.app/">Portfolio Sobhana</a></h4>
+                <p>Portfolio project for our client Ms.Sobhana</p>
+              </div>
+            </div>
+          </div>
+  
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <figure>
+                <img src="assets/img/portfolio/infohub.png" class="img-fluid" alt="">
+                <a href="assets/img/portfolio/infohub.png" class="link-preview venobox" data-gall="portfolioGallery" title="Web 1"><i class="ion ion-eye"></i></a>
+                <a href="http://infohubhome.000webhostapp.com/" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+              </figure>
+  
+              <div class="portfolio-info">
+                <h4><a href="http://infohubhome.000webhostapp.com/">Department Blog</a></h4>
+                <p>Offcial department blog</p>
+              </div>
+            </div>
+          </div>
+  
+        </div>
+  
+        </div>
+      </section>
 
     <footer class="footer" id="footer">
             
@@ -338,11 +383,37 @@
         }
         );
     </script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>AOS.init();</script>
+
     <script>
         setTimeout( function () {
         $ ('.loader-bg').fadeToggle();
         },1500);
+        function aos_init() {
+            AOS.init({
+              duration: 1000,
+              once: true
+            });
+          }
+        
+        var portfolioIsotope = $('.portfolio-container').isotope({
+            itemSelector: '.portfolio-item',
+            layoutMode: 'fitRows'
+          });
+        
+          $('#portfolio-flters li').on('click', function() {
+            $("#portfolio-flters li").removeClass('filter-active');
+            $(this).addClass('filter-active');
+        
+            portfolioIsotope.isotope({
+              filter: $(this).data('filter')
+            });
+            aos_init();
+          });
 </script>
+
 </body>
 
 </html>
