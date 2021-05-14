@@ -827,7 +827,7 @@
   }
   
   #portfolio #portfolio-flters li:hover, #portfolio #portfolio-flters li.filter-active {
-    background: #18d26e;
+    background: #186fd2;
     color: #fff;
   }
   
@@ -887,7 +887,7 @@
   }
   
   #portfolio .portfolio-item figure .link-preview:hover, #portfolio .portfolio-item figure .link-details:hover {
-    background: #18d26e;
+    background: #186fd2;
   }
   
   #portfolio .portfolio-item figure .link-preview:hover i, #portfolio .portfolio-item figure .link-details:hover i {
@@ -935,7 +935,7 @@
   }
   
   #portfolio .portfolio-item .portfolio-info h4 a:hover {
-    color: #18d26e;
+    color: #186fd2;
   }
   
   #portfolio .portfolio-item .portfolio-info p {
@@ -977,7 +977,7 @@
   }
   
   .portfolio-details .portfolio-details-carousel .owl-dot.active {
-    background-color: #18d26e !important;
+    background-color: #186fd2 !important;
   }
   
   .portfolio-details .portfolio-info {
