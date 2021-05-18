@@ -109,10 +109,17 @@ ul {
   width: 60px;
   height: 40px;
 }
-
+.footer-col .company ul{
+  padding: 0 40px;
+  margin:0;
+}
 /*responsive*/
 
 @media (max-width: 767px) {
+  .footer-col .company ul{
+    padding: 0 10px;
+    margin:0;
+  }
   .footer-col {
       width: 50%;
       margin-bottom: 30px;
@@ -125,6 +132,10 @@ ul {
   }
 }
 @media (max-width: 600px) {
+  .footer-col .company ul{
+    padding: 0 10px;
+    margin:0;
+  }
   .footer-col {
       width: 100%;
   }
@@ -147,6 +158,13 @@ ul {
   }
   .column-left p {
       font-size: 16px;
+  }
+}
+@media(max-width:500px)
+{
+  .footer-col .company ul{
+    padding: 0 10px;
+    margin:0;
   }
 }
 
