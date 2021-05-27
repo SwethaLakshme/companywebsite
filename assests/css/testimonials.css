@@ -207,7 +207,7 @@ a{
 }
 .reviews2 img{
     height: 50px;
-    width: 125px;
+    width: auto;
 }
 .reviews3 img{
     height: 50px;
