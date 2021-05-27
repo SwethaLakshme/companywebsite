@@ -119,6 +119,9 @@ ul {
     padding: 0 10px;
     margin:0;
   }
+  .left-align{
+    padding-left: 10px !important;;
+  }
   .footer-col {
       width: 50%;
       margin-bottom: 30px;
@@ -169,13 +172,22 @@ ul {
 
 .nav-logo img { 
   padding-left:10px;
-  height: 60px;
+  height: 65px !important;
   padding-bottom:10px;
 }
+.left-align{
+  text-align:left!important;
+  padding-left:40px;
+}
+.left-align-get{
+  text-align:left!important;
+  padding-left:10px;
 
+
+}
 .nav-logo img:nth-child(2) { 
   padding-left:10px;
-  height: 60px;
+  height: 65px !important;
   display: none;
   padding-bottom:10px;
 } 
