@@ -58,6 +58,32 @@
             height: 100%;
             border: none;
         }
+        .page {
+            position: relative;
+            height:100%;
+        }
+        
+        .popup {
+            position:absolute;
+            z-index:2;
+            top:0;
+            left:0;
+            width:100%;
+            height:100%;
+            background:rgba(0,0,0,0.7);
+            opacity:0;
+            visibility:hidden;
+            transition:.3s ease;
+        }
+        
+        .show-popup .popup {
+            opacity:1;
+            visibility: visible;    
+        }
+        
+        .popup > iframe {
+            position:absolute;
+        }
     </style>
 </head>
 
@@ -232,13 +258,24 @@
                 </div>
 
             </div>
-            <!-- <div class="videowrapper" style="margin-top:30px;">
-                <iframe data-aos="flip-right" class="responsive-iframe" width="853" height="480"
-                    src="https://www.youtube.com/embed/P-0tFV_5rqY?rel=0&enablejsapi=1&hd=1"
-                    title="YouTube video player" frameborder="0">
-                </iframe>
-            </div> -->
-        </div>
+            
+                <div class="page videowrapper" style="margin-top:30px;">
+                    <div class="responsive-iframe" data-aos="flip-right" style="background-image: url('assests/images/yt-banner.jpg'); background-repeat: no-repeat;background-size: cover;">
+                        <p style="text-align: center;  padding:25%;"><a href="#media-popup" data-media="https://www.youtube.com/embed/P-0tFV_5rqY?rel=0&enablejsapi=1&hd=1&autoplay=1" style="place-content: center;"> 
+                            <img src="assests/images/yt-play.png" width="80" height="80">
+                    
+                    </a></p>
+                    
+                    <div class="popup" id="media-popup">
+                        <iframe width="100%" height="100%" src="" frameborder="0"  allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                    </div>
+                    </div>
+                </div>
+
+
+                
+            </div>
+       
     </section>
     <!-- End About Us Section -->
 
@@ -298,6 +335,29 @@
             $('.down-nav').load('downnav.html')
         }
         );
+
+        $("[data-media]").on("click", function(e) {
+            e.preventDefault();
+            var $this = $(this);
+            var videoUrl = $this.attr("data-media");
+            var popup = $this.attr("href");
+            var $popupIframe = $(popup).find("iframe");
+            
+            $popupIframe.attr("src", videoUrl);
+            
+            $this.closest(".page").addClass("show-popup");
+        });
+        
+        $(".popup").on("click", function(e) {
+            e.preventDefault();
+            e.stopPropagation();
+            
+            $(".page").removeClass("show-popup");
+        });
+        
+        $(".popup > iframe").on("click", function(e) {
+            e.stopPropagation();
+        });
     </script>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
