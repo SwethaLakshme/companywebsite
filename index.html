@@ -36,55 +36,8 @@
         href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
     <link rel="stylesheet" type="text/css" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
     <link rel="stylesheet" href="assests/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css">
-    <style>
-        .videowrapper {
-            position: relative;
-            width: 70%;
-            overflow: hidden;
-            padding-top: 39.35%;
-            /* 16:9 Aspect Ratio */
-            margin-bottom: 25px;
-            margin-left: 17.5%;
-        }
-
-        .responsive-iframe {
-            position: absolute;
-            top: 0;
-            left: 0;
-            bottom: 0;
-            right: 0;
-            width: 100%;
-            height: 100%;
-            border: none;
-        }
-        .page {
-            position: relative;
-            height:100%;
-        }
-        
-        .popup {
-            position:absolute;
-            z-index:2;
-            top:0;
-            left:0;
-            width:100%;
-            height:100%;
-            background:rgba(0,0,0,0.7);
-            opacity:0;
-            visibility:hidden;
-            transition:.3s ease;
-        }
-        
-        .show-popup .popup {
-            opacity:1;
-            visibility: visible;    
-        }
-        
-        .popup > iframe {
-            position:absolute;
-        }
-    </style>
+    <link rel="stylesheet" href="assests/css/bootstrap-icons.css">
+    
 </head>
 
 <body>
@@ -261,10 +214,12 @@
             
                 <div class="page videowrapper" style="margin-top:30px;">
                     <div class="responsive-iframe" data-aos="flip-right" style="background-image: url('assests/images/yt-banner.jpg'); background-repeat: no-repeat;background-size: cover;">
-                        <p style="text-align: center;  padding:25%;"><a href="#media-popup" data-media="https://www.youtube.com/embed/P-0tFV_5rqY?rel=0&enablejsapi=1&hd=1&autoplay=1" style="place-content: center;"> 
-                            <img src="assests/images/yt-play.png" width="80" height="80">
+                        <p style="text-align: center;">
+                            <a href="#media-popup" data-media="https://www.youtube.com/embed/P-0tFV_5rqY?rel=0&enablejsapi=1&hd=1&autoplay=1" style="place-content: center;"> 
+                                <img src="assests/images/yt-play.png" width="80" height="80">
                     
-                    </a></p>
+                            </a>
+                        </p>
                     
                     <div class="popup" id="media-popup">
                         <iframe width="100%" height="100%" src="" frameborder="0"  allow="autoplay; encrypted-media" allowfullscreen></iframe>
@@ -370,11 +325,7 @@
             $('.loader-bg').fadeToggle();
         }, 1500);
     </script>
-    <script type="text/javascript">
-       
-    </script>
-    <script>
-    </script>
+   
 </body>
 
 </html>
