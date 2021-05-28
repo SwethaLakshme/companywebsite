@@ -482,7 +482,6 @@
         height: 5vh;
         text-align: center;
         align-items: center;
-        background: url('mario-gogh-VBLHICVh-lI-unsplash.jpg');
         background-position: center;
         background-repeat: no-repeat;
         background-attachment: fixed;
@@ -931,7 +930,8 @@
   }
   
   #portfolio .portfolio-item .portfolio-info h4 a {
-    color: #333;
+    color: #186fd2;
+    text-decoration: none;
   }
   
   #portfolio .portfolio-item .portfolio-info h4 a:hover {
@@ -941,7 +941,7 @@
   #portfolio .portfolio-item .portfolio-info p {
     padding: 0;
     margin: 0;
-    color: #b8b8b8;
+    color: #5e5e5e;
     font-weight: 500;
     font-size: 14px;
     
