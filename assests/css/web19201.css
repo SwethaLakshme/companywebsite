@@ -295,27 +295,27 @@ body {
 }
 }
 .slide1{
-  background-image: url('../img/intro-carousel/slide1.jpg');  
+  background-image: url('../img/intro-carousel/slide1.jpg?nf_resize=smartcrop&w=1080');  
   background-repeat: no-repeat;   
   background-size: cover;
 }
 .slide2{
-  background-image: url('../img/intro-carousel/7.jpg');  
+  background-image: url('../img/intro-carousel/7.jpg?nf_resize=smartcrop&w=1080');  
   background-repeat: no-repeat;   
   background-size: cover;
 }
 .slide3{
-  background-image: url('../images/9.jpg');  
+  background-image: url('../images/9.jpg?nf_resize=smartcrop&w=1080');  
   background-repeat: no-repeat;   
   background-size: cover;
 }
 .slide4{
-  background-image: url('../img/intro-carousel/slide4.jpg');
+  background-image: url('../img/intro-carousel/slide4.jpg?nf_resize=smartcrop&w=1080');
   background-repeat: no-repeat;   
   background-size: cover;
 }
 .slide5{
-  background-image: url('../img/intro-carousel/slide5.jpg');  
+  background-image: url('../img/intro-carousel/slide5.jpg?nf_resize=smartcrop&w=1080');  
   background-repeat: no-repeat;   
   background-size: cover;
 }
