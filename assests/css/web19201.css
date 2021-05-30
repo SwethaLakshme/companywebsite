@@ -172,8 +172,8 @@ ul {
 
 .nav-logo img { 
   padding-left:10px;
-  height: 67.5px !important;
-  margin-top:-10px;
+  height: 65px !important;
+  padding-bottom:10px;
 }
 .left-align{
   text-align:left!important;
@@ -305,7 +305,7 @@ body {
   background-size: cover;
 }
 .slide3{
-  background-image: url('../img/intro-carousel/9.jpg');  
+  background-image: url('../images/9.jpg');  
   background-repeat: no-repeat;   
   background-size: cover;
 }
@@ -338,9 +338,6 @@ body {
   }
   .slide2{
     background-image: url('../img/intro-carousel/7Mobile.jpg');  
-  }
-  .slide3{
-    background-image: url('../img/intro-carousel/9Mobile.jpg');  
   }
   .slide4{
     background-image: url('../img/intro-carousel/slide4Mobile.jpg');
