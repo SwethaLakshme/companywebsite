@@ -194,7 +194,7 @@ ul {
 @media(max-width:980px) {
 .nav-logo img:nth-child(2) {
   height: 58px;
-  margin-left: 10px;
+  margin-left: -4px;
   display: inline-block;
 }
 }
