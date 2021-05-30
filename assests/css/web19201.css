@@ -305,7 +305,7 @@ body {
   background-size: cover;
 }
 .slide3{
-  background-image: url('../images/9.jpg');  
+  background-image: url('../img/intro-carousel/9.jpg');  
   background-repeat: no-repeat;   
   background-size: cover;
 }
@@ -338,6 +338,9 @@ body {
   }
   .slide2{
     background-image: url('../img/intro-carousel/7Mobile.jpg');  
+  }
+  .slide3{
+    background-image: url('../img/intro-carousel/9Mobile.jpg');  
   }
   .slide4{
     background-image: url('../img/intro-carousel/slide4Mobile.jpg');
