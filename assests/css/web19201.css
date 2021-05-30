@@ -172,8 +172,8 @@ ul {
 
 .nav-logo img { 
   padding-left:10px;
-  height: 65px !important;
-  padding-bottom:10px;
+  height: 67.5px !important;
+  margin-top:-10px;
 }
 .left-align{
   text-align:left!important;
