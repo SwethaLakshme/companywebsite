@@ -6,6 +6,7 @@
     <a href="index.html" id="home-page">Home</a>
     <a href="about.html" id="about-page">About us</a>
     <a href="service.html" id="service-page">Services</a>
+    <a href="career.html" id="career-page">Career</a>
     <a href='testimonials.html' id="test-page">Testimonials </a>
     <a href='#' id="blog-page">Blog</a>
 
@@ -19,36 +20,49 @@
     var loc = window.location.href;
     
     if(loc.includes("service.html")) {
+        document.getElementById("career-page").href = "#";
         document.getElementById("service-page").href = "#";
         document.getElementById("test-page").href = "testimonials.html";
         document.getElementById("about-page").href = "about.html";
         document.getElementById("home-page").href = "index.html";
         document.getElementById("contact-page").href = "contact.html";
     }
-    if(loc.includes("about.html")) {
+    if(loc.includes("career.html")) {
+        document.getElementById("career-page").href = "#";
         document.getElementById("service-page").href = "service.html";
         document.getElementById("test-page").href = "testimonials.html";
+        document.getElementById("about-page").href = "about.html";
+        document.getElementById("home-page").href = "index.html";
+        document.getElementById("contact-page").href = "contact.html";
+    }
+    if(loc.includes("about.html")) {
+        document.getElementById("career-page").href = "career.html";
+        document.getElementById("service-page").href = "service.html";
+                document.getElementById("test-page").href = "testimonials.html";
         document.getElementById("about-page").href = "#";
         document.getElementById("home-page").href = "index.html";
         document.getElementById("contact-page").href = "contact.html";
     }
     if(loc.includes("testimonials.html")) {
+        document.getElementById("career-page").href = "career.html";
         document.getElementById("service-page").href = "service.html";
-        document.getElementById("test-page").href = "#";
+                document.getElementById("test-page").href = "#";
         document.getElementById("about-page").href = "about.html";
         document.getElementById("home-page").href = "index.html";
         document.getElementById("contact-page").href = "contact.html";
     }
     if(loc.includes("contact.html")) {
+        document.getElementById("career-page").href = "career.html";
         document.getElementById("service-page").href = "service.html";
-        document.getElementById("test-page").href = "testimonials.html";
+                document.getElementById("test-page").href = "testimonials.html";
         document.getElementById("about-page").href = "about.html";
         document.getElementById("home-page").href = "index.html";
         document.getElementById("contact-page").href = "#";
     }
     if(loc.includes("index.html")) {
+        document.getElementById("career-page").href = "career.html";
         document.getElementById("service-page").href = "service.html";
-        document.getElementById("test-page").href = "testimonials.html";
+                document.getElementById("test-page").href = "testimonials.html";
         document.getElementById("about-page").href = "about.html";
         document.getElementById("home-page").href = "#";
         document.getElementById("contact-page").href = "contact.html";

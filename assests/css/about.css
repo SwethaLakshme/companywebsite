@@ -1047,7 +1047,7 @@ body {
     transition: all 0.3s ease-in-out;
   }
   
-  #portfolio #portfolio-flters li:hover, #portfolio #portfolio-filters li.filter-active {
+  #portfolio #portfolio-flters li:hover, #portfolio #portfolio-flters li.filter-active {
     background: #186fd2;
     color: #fff;
   }

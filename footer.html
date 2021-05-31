@@ -5,8 +5,9 @@
 			<div class="company">
 			<h4 class="left-align"><span>Company</span></h4>
 			<ul>
+				<li style="text-align:left;"><a href="about.html" id="footer-about">About Us</a></li>
 				<li style="text-align:left;"><a href="service.html" id="footer-service">Our services</a></li>
-				<li style="text-align:left;"><a href="about.html" id="footer-about">Career at softrate</a></li>
+				<li style="text-align:left;"><a href="career.html" id="footer-career">Career at softrate</a></li>
 				<li style="text-align: left;"><a href="#" id="footer-blogs">Read Our Blogs</a></li>
 				<li style="text-align: left;"><a href="testimonials.html" id="footer-test">Testimonials</a></li>
 				<li style="text-align:left;"><a href="privacypolicy.html" id="footer-policy">Privacy Policy</a></li>
@@ -57,8 +58,17 @@
 
 <script>
     var loc = window.location.href;
+	if(loc.includes("career.html")) {
+		document.getElementById("footer-career").href = "#";
+        document.getElementById("footer-service").href = "service.html";
+        document.getElementById("footer-test").href = "testimonials.html";
+        document.getElementById("footer-about").href = "about.html";
+        document.getElementById("footer-policy").href = "privacypolicy.html";
+        document.getElementById("footer-terms").href = "Terms_and_Conditions.html";
+    }
     
     if(loc.includes("service.html")) {
+		document.getElementById("footer-career").href = "career.html";
         document.getElementById("footer-service").href = "#";
         document.getElementById("footer-test").href = "testimonials.html";
         document.getElementById("footer-about").href = "about.html";
@@ -66,6 +76,7 @@
         document.getElementById("footer-terms").href = "Terms_and_Conditions.html";
     }
     if(loc.includes("about.html")) {
+		document.getElementById("footer-career").href = "career.html";
         document.getElementById("footer-service").href = "service.html";
         document.getElementById("footer-test").href = "testimonials.html";
         document.getElementById("footer-about").href = "#";
@@ -73,6 +84,7 @@
         document.getElementById("footer-terms").href = "Terms_and_Conditions.html";
     }
     if(loc.includes("testimonials.html")) {
+		document.getElementById("footer-career").href = "career.html";
         document.getElementById("footer-service").href = "service.html";
         document.getElementById("footer-test").href = "#";
         document.getElementById("footer-about").href = "about.html";
@@ -80,6 +92,7 @@
         document.getElementById("footer-terms").href = "Terms_and_Conditions.html";
     }
     if(loc.includes("Terms_and_Conditions.html")) {
+		document.getElementById("footer-career").href = "career.html";
         document.getElementById("footer-service").href = "service.html";
         document.getElementById("footer-test").href = "testimonials.html";
         document.getElementById("footer-about").href = "about.html";
@@ -87,6 +100,7 @@
         document.getElementById("footer-terms").href = "#";
     }
     if(loc.includes("privacypolicy.html")) {
+		document.getElementById("footer-career").href = "career.html";
         document.getElementById("footer-service").href = "service.html";
         document.getElementById("footer-test").href = "testimonials.html";
         document.getElementById("footer-about").href = "about.html";
