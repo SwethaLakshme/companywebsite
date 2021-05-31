@@ -1176,3 +1176,31 @@ body {
   .portfolio-wrap{
       background-color: #a1ccfd;
   }
+  #portfolio-filters {
+    text-align: center;
+}
+  
+
+  @media screen and (min-width:992px) {
+    #portfolio-filters{
+        display:none;
+    }
+  }
+  @media screen and (max-width:991px) {
+    #portfolio-flters{
+        display:none;
+    }
+    .row{
+        place-content: center;
+        text-align: center;
+    }
+  }
+  select, #portfolio-filters {
+      text-align-last: center;
+      width:fit-content;
+      margin-bottom: 30px;
+    }
+  .row{
+      place-content: center;
+      text-align: center;
+  }
