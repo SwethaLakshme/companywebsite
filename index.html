@@ -29,6 +29,8 @@
 
 
     <!-- CSS only -->
+    <link href="assests/css/playbutton.css" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <link rel="stylesheet" href="assests/css/home.css">
     <link rel="stylesheet" href="assests/css/web19201.css">
     <link rel="preload" href="assests/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
@@ -224,7 +226,13 @@
                     <div class="responsive-iframe" data-aos="flip-right" style="background-image: url('assests/images/yt-banner.jpg'); background-repeat: no-repeat;background-size: cover;">
                         <p style="text-align: center;">
                             <a href="#media-popup" data-media="https://www.youtube.com/embed/P-0tFV_5rqY?rel=0&enablejsapi=1&hd=1&autoplay=1" style="place-content: center;"> 
-                                <img src="assests/images/yt-play.png" width="130" height="80">
+                                <!-- <img src="assests/images/yt-play.png" width="130" height="80"> -->
+                                <div class="video-box">
+                                    
+                                        <div class="play-bt">
+                                            <i class="fa fa-play"></i>
+                                        </div>
+                                </div>
                     
                             </a>
                         </p>
@@ -233,7 +241,8 @@
                         <iframe width="100%" height="100%" src="" frameborder="0"  allow="autoplay; encrypted-media" allowfullscreen></iframe>
                     </div>
                     </div>
-                </div>
+                </div> 
+
 
 
                 
@@ -321,6 +330,10 @@
         $(".popup > iframe").on("click", function(e) {
             e.stopPropagation();
         });
+
+
+        
+
     </script>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>

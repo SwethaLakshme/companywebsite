@@ -1,0 +1,58 @@
+*{
+    margin: 0px;
+}
+body{
+    background: #ffffff;
+}
+.video-box .play-bt{
+    background:transparent;
+    color:gold;
+    font-size: 25px;
+    width: 100px;
+    height:100px;
+    position: absolute;
+    left: -10px;
+    right: 0px;
+    top:0px;
+    bottom:0px;
+    margin: auto;
+    text-align: center;
+    border-radius: 50%;
+}
+.video-box .play-bt i{
+line-height:100px;margin-left:10px;
+
+}
+.video-box .play-bt:before,.video-box .play-bt:after{
+    content:'';
+    position: absolute;
+    border: 2px solid white;
+    border-radius: 50%;
+    left:-15px;
+    right:-15px;
+    top:-15px;
+    bottom:-15px;
+    animation: animate 1.5s linear infinite;
+    opacity: 0;
+}
+.video-box .play-bt::after{
+    animation-delay: 0.5s;
+}
+@keyframes animate{
+    0%
+    {
+        transform: scale(.5);
+    }
+    50%
+    {
+        opacity: 1;
+    }
+    100%
+    {
+        transform: scale(1.5);
+    }
+}
+/* @media screen and (max-width:550px){
+
+    
+} */
