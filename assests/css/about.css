@@ -482,7 +482,7 @@ ul {
 
     p {
         color: #222;
-        font-size: 18px;
+        font-size: 1rem;
         padding: 12px;
     }
 
@@ -1039,7 +1039,7 @@ body {
       position: absolute;
       left: 0;
       width: 100%;
-      padding: 2rem;
+      /* padding: 2rem; */
       -webkit-box-sizing: border-box;
               box-sizing: border-box;
       outline: 1px solid transparent;
@@ -1110,7 +1110,7 @@ body {
     }
     .front, .back{
         min-width: 300px;
-        min-height: 500px;
+        min-height: 600px;
     }
     
   }
@@ -1123,7 +1123,7 @@ body {
     }
     .front, .back{
         min-width: 300px;
-        min-height: 500px;
+        min-height: 600px;
     }
   }
   
@@ -1135,7 +1135,7 @@ body {
     }
     .front, .back{
         min-width: 300px;
-        min-height: 500px;
+        min-height: 600px;
     }
   }
   .container{
