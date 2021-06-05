@@ -990,8 +990,9 @@ body {
       min-height: 450px;
       height: auto;
       border-radius: 10px;
-      color: #fff;
-      font-size: 1.5rem;
+      color: rgb(255, 255, 255);
+      background-color: #2586f5;
+      font-size: 1rem;
   }
   
   .back{
@@ -1001,7 +1002,7 @@ body {
     background: linear-gradient(45deg,  #cedce7 0%,#596a72 100%);
   }
   
-  .front:after{
+  /* .front:after{
       position: absolute;
       top: 0;
       left: 0;
@@ -1015,7 +1016,7 @@ body {
       -webkit-backface-visibility: hidden;
               backface-visibility: hidden;
       border-radius: 10px;
-  }
+  } */
   .container1:hover .front,
   .container1:hover .back{
       -webkit-transition: -webkit-transform .7s cubic-bezier(0.4, 0.2, 0.2, 1);
@@ -1030,12 +1031,12 @@ body {
       top: 0;
       left: 0;
       width: 100%;
+      font-size: 1rem;
   }
   
   .inner{
       -webkit-transform: translateY(-50%) translateZ(60px) scale(0.94);
               transform: translateY(-50%) translateZ(60px) scale(0.94);
-      top: 50%;
       position: absolute;
       left: 0;
       width: 100%;
@@ -1046,6 +1047,7 @@ body {
       -webkit-perspective: inherit;
               perspective: inherit;
       z-index: 2;
+      font-size: 1rem;
   }
   
   .container1 .back{
@@ -1077,10 +1079,16 @@ body {
   }
   
   .front .inner p{
-    font-size: 2rem;
+    font-size: 1.5rem;
     margin-bottom: 2rem;
     position: relative;
     color: black;
+  }
+  .front .inner{
+    top: 80%;
+  }
+  .back .inner{
+      top: 50%;
   }
   
   .front .inner p:after{
@@ -1101,7 +1109,12 @@ body {
     font-family: 'Montserrat';
     font-weight: 300;
   }
-  
+  @media screen and (min-width:1204px) {
+    .back .inner p{
+        font-size: .8rem;;
+      }
+      
+  }
   @media screen and (max-width: 1204px){
     .col1{
         width: calc(40% - 2rem);
