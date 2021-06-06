@@ -1096,7 +1096,7 @@ body {
   #portfolio .portfolio-wrap {
     box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.08);
     transition: 0.3s;
-    height: 90%;
+    height: 95%;
     padding-bottom: 1vh;
   }
   
@@ -1227,7 +1227,7 @@ body {
     bottom: 0;
     left: 0;
     right: 0;
-    height: 90%;
+    height: 95%;
     width: 100%;
     opacity: 0;
     transition: 0.5s ease;
@@ -1236,20 +1236,33 @@ body {
   
   .texttoshow {
     color: black;
-    font-size: 0.6rem;
+    font-size: 0.75rem;
     position: absolute;
-    top: 50%;
-    left: 50%;
+     top: 50%;
+    left: 50%; 
+    
     -webkit-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    text-align: center;
+    transform: translate(-50%, -50%); 
+   
   }
   
-  @media screen and (min-width:992px) {
+  @media screen and (min-width:1000px) {
     #portfolio-filters{
         display:none;
     }
+    .texttoshow {
+        color: black;
+        font-size: 0.70rem;
+        position: absolute;
+         top: 50%;
+        left: 50%; 
+        
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%); 
+       
+      }
   }
   @media screen and (max-width:991px) {
     #portfolio-flters{
@@ -1259,6 +1272,18 @@ body {
         place-content: center;
         text-align: center;
     }
+    .texttoshow {
+        color: black;
+        font-size: 0.70rem;
+        position: absolute;
+         top: 50%;
+        left: 50%; 
+        
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%); 
+       
+      }
   }
   select, #portfolio-filters {
       text-align-last: center;
