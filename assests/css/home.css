@@ -549,7 +549,7 @@ section {
 
 .section-header h3 {
     font-size: 32px;
-    color: #111;
+    color: rgb(255, 255, 255);
     font-family: 'Poppins', sans-serif;
     text-transform: uppercase;
     text-align: center;
