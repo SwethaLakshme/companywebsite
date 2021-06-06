@@ -1294,3 +1294,10 @@ body {
       place-content: center;
       text-align: center;
   }
+
+  @media screen and (max-width:285px) {
+    
+    .breakWord {
+        overflow-wrap:break-word;
+    }
+    }
