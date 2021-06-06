@@ -1236,6 +1236,8 @@ body {
   
   .texttoshow {
     color: black;
+    padding:0 25px;
+    width:fit-content;
     font-size: 0.75rem;
     position: absolute;
      top: 50%;
