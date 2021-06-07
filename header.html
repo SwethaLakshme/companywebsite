@@ -10,7 +10,10 @@
     <a href='testimonials.html' id="test-page">Testimonials </a>
     <a href='#' id="blog-page">Blog</a>
 
-
+    <!-- var h1 = document.getElementsByTagName("a")[0];
+    var att = document.createAttribute("class");
+    att.value = "current";  
+    h1.setAttributeNode(att); -->
 </div>
 <div class="nav-terms-policy">
     <a href="contact.html" id="contact-page">Contact us</a>
@@ -26,6 +29,8 @@
         document.getElementById("about-page").href = "about.html";
         document.getElementById("home-page").href = "index.html";
         document.getElementById("contact-page").href = "contact.html";
+
+ 
     }
     if(loc.includes("career.html")) {
         document.getElementById("career-page").href = "#";
