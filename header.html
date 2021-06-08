@@ -10,10 +10,7 @@
     <a href='testimonials.html' id="test-page">Testimonials </a>
     <a href='#' id="blog-page">Blog</a>
 
-    <!-- var h1 = document.getElementsByTagName("a")[0];
-    var att = document.createAttribute("class");
-    att.value = "current";  
-    h1.setAttributeNode(att); -->
+    
 </div>
 <div class="nav-terms-policy">
     <a href="contact.html" id="contact-page">Contact us</a>
@@ -30,6 +27,11 @@
         document.getElementById("home-page").href = "index.html";
         document.getElementById("contact-page").href = "contact.html";
 
+
+        document.getElementById("service-page").classList.add("activeNav");
+        
+
+
  
     }
     if(loc.includes("career.html")) {
@@ -39,6 +41,9 @@
         document.getElementById("about-page").href = "about.html";
         document.getElementById("home-page").href = "index.html";
         document.getElementById("contact-page").href = "contact.html";
+
+        document.getElementById("career-page").classList.add("activeNav");
+
     }
     if(loc.includes("about.html")) {
         document.getElementById("career-page").href = "career.html";
@@ -47,6 +52,9 @@
         document.getElementById("about-page").href = "#";
         document.getElementById("home-page").href = "index.html";
         document.getElementById("contact-page").href = "contact.html";
+
+        document.getElementById("about-page").classList.add("activeNav");
+
     }
     if(loc.includes("testimonials.html")) {
         document.getElementById("career-page").href = "career.html";
@@ -55,6 +63,9 @@
         document.getElementById("about-page").href = "about.html";
         document.getElementById("home-page").href = "index.html";
         document.getElementById("contact-page").href = "contact.html";
+
+        document.getElementById("test-page").classList.add("activeNav");
+
     }
     if(loc.includes("contact.html")) {
         document.getElementById("career-page").href = "career.html";
@@ -63,6 +74,9 @@
         document.getElementById("about-page").href = "about.html";
         document.getElementById("home-page").href = "index.html";
         document.getElementById("contact-page").href = "#";
+
+        document.getElementById("contact-page").classList.add("activeNav");
+
     }
     if(loc.includes("index.html")) {
         document.getElementById("career-page").href = "career.html";
@@ -71,5 +85,8 @@
         document.getElementById("about-page").href = "about.html";
         document.getElementById("home-page").href = "#";
         document.getElementById("contact-page").href = "contact.html";
-    }
+
+        document.getElementById("home-page").classList.add("activeNav");
+
+    }   
 </script>

@@ -223,7 +223,9 @@ body {
 .nav-bar {
     padding: 10px 20px;
 }
-
+.activeNav, .activeNav i{
+    color: #186fd2 !important;
+}
 .nav-bar a {
     font-size: 18px;
     font-weight: 700;
@@ -1345,3 +1347,14 @@ body {
         overflow-wrap:break-word;
     }
     }
+
+@media screen and (max-width: 300px) {
+    .nav-logo{
+        width:100%;
+        text-align:center;
+    }
+    .nav-terms-policy{
+        display:none;
+    }
+    
+}

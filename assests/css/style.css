@@ -43,6 +43,10 @@
         padding: 10px 20px;
     }
     
+    .activeNav, .activeNav i{
+        color: #186fd2 !important;
+    }
+    
     .nav-bar a {
         font-size: 18px;
         font-weight: 700;

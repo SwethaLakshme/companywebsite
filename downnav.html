@@ -23,6 +23,10 @@
         document.getElementById("down-nav-about").href = "about.html";
         document.getElementById("down-nav-index").href = "index.html";
         document.getElementById("down-nav-contact").href = "contact.html";
+
+        document.getElementById("down-nav-service").classList.add("activeNav");
+
+
     }
     if(loc.includes("about.html")) {
         document.getElementById("down-nav-service").href = "service.html";
@@ -30,6 +34,8 @@
         document.getElementById("down-nav-about").href = "#";
         document.getElementById("down-nav-index").href = "index.html";
         document.getElementById("down-nav-contact").href = "contact.html";
+
+        document.getElementById("down-nav-about").classList.add("activeNav");
     }
     if(loc.includes("testimonials.html")) {
         document.getElementById("down-nav-service").href = "service.html";
@@ -37,6 +43,8 @@
         document.getElementById("down-nav-about").href = "about.html";
         document.getElementById("down-nav-index").href = "index.html";
         document.getElementById("down-nav-contact").href = "contact.html";
+
+        document.getElementById("down-nav-testimonial").classList.add("activeNav");
     }
     if(loc.includes("contact.html")) {
         document.getElementById("down-nav-service").href = "service.html";
@@ -44,6 +52,8 @@
         document.getElementById("down-nav-about").href = "about.html";
         document.getElementById("down-nav-index").href = "index.html";
         document.getElementById("down-nav-contact").href = "#";
+
+        document.getElementById("down-nav-contact").classList.add("activeNav");
     }
     if(loc.includes("index.html")) {
         document.getElementById("down-nav-service").href = "service.html";
@@ -51,5 +61,7 @@
         document.getElementById("down-nav-about").href = "about.html";
         document.getElementById("down-nav-index").href = "#";
         document.getElementById("down-nav-contact").href = "contact.html";
+
+        document.getElementById("down-nav-index").classList.add("activeNav");
     }
 </script>
