@@ -421,3 +421,15 @@ body {
         overflow-wrap:break-word;
     }
     }
+    
+@media screen and (max-width: 300px) {
+    .nav-logo{
+        width:100%;
+        text-align:center;
+    }
+    
+    .nav-terms-policy{
+        display:none;
+    }
+    
+}

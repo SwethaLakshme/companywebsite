@@ -1305,3 +1305,26 @@ body {
         overflow-wrap:break-word;
     }
     }
+    .quote{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .quote img{
+        width: 15rem;
+        height:auto;
+        margin:0 2px;
+    }
+    .quote .para{
+        padding-top: 10%;
+    }
+    @media screen and (max-width:420px){
+        .quote{
+            flex-direction: column;
+            place-items: center;
+        }
+        .quote p{
+            text-align: center;
+        }
+    }
