@@ -1319,6 +1319,14 @@ body {
     .quote .para{
         padding-top: 10%;
     }
+    .quote .quotes{
+        font-size: 1.8rem;
+    }
+    .quote .auth2{
+        font-size: small;
+        margin-top: -40px !important;
+        padding-left:22px !important;
+    }
     @media screen and (max-width:420px){
         .quote{
             flex-direction: column;
@@ -1327,4 +1335,5 @@ body {
         .quote p{
             text-align: center;
         }
+        
     }
