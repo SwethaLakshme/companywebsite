@@ -27,15 +27,14 @@ ul {
 }
 
 .footer-col {
-  width: 25%;
+  width: 20%;
   height: max-content;
-  padding: 0 15px;
 }
 .footer-col .company ul li a{
   text-align:left;
 }
 .footer-col h4 {
-  font-size: 25px;
+  font-size: 20px;
   color: #ffffff;
   text-transform: capitalize;
   font-weight: 500;
@@ -104,8 +103,8 @@ ul {
   background-color: #ffffff;
 }
 
-.footer-col img {
-  width: 60px;
+.footer-col div img {
+  width: 100%;
   height: auto;
 }
 .footer-col .company ul{
@@ -114,11 +113,16 @@ ul {
 }
 /*responsive*/
 
-@media (max-width: 767px) {
+@media screen and (max-width:767px) {
   .footer-col .company ul{
     padding: 0 10px;
     margin:0;
+    
   }
+  .footer-col  ul li, .footer-col ul li a, .footer-col  h4, .footer-col .left-align{
+    text-align: left !important;
+  }
+
   .left-align{
     padding-left: 10px !important;;
   }
@@ -133,11 +137,20 @@ ul {
     font-size: .9rem;
   }
 }
-@media (max-width: 600px) {
+@media screen and (max-width: 600px) {
   .footer-col .company ul{
     padding: 0 10px;
     margin:0;
+    width: 100%;
   }
+  .footer-col .company ul li, .footer-col .company ul li a, .footer-col .company h4,.footer-col  ul li, .footer-col ul li a, .footer-col  h4, .footer-col .left-align{
+    text-align: center!important;
+  }
+  .footer-col div img{
+    width: 60%;
+  }
+
+
   .footer-col {
       width: 100%;
   }
