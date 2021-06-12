@@ -1359,3 +1359,9 @@ body {
     }
     
 }
+@media screen and (min-width: 1200px) {
+    .widht{
+        max-width: 975px !important;
+    }
+    
+}
