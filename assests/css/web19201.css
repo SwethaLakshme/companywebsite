@@ -27,7 +27,7 @@ ul {
 }
 
 .footer-col {
-
+  width: 20%;
   height: max-content;
 }
 .footer-col .company ul li a{
@@ -56,8 +56,7 @@ ul {
   color: #bbbbbb;
   display: block;
   transition: all 0.3s ease;
-  /* text-align: center; */
-  margin-left: 7px;
+  text-align: center;
 }
 
 .footer-col ul li a img {
@@ -69,6 +68,7 @@ ul {
   color: #ffffff;
   padding-left: 8px;
 }
+
 .footer-col h4 span
 {
   padding-bottom: 3px;
@@ -124,14 +124,17 @@ ul {
   }
 
   .left-align{
-    padding-left: 3px !important;;
+    padding-left: 10px !important;;
   }
   .footer-col {
-      width: 50%;
+      width: 30%;
       margin-bottom: 30px;
+      padding-left: 10px;
   }
 }
-
+.email a{
+  text-align: left !important;
+}
 @media screen and (min-width:767px) and (max-width:1130px) {
   .email{
     overflow-wrap: break-word;
@@ -191,7 +194,7 @@ ul {
 }
 .left-align{
   text-align:left!important;
-  padding-left:35px;
+  padding-left:10px;
 }
 .left-align-get{
   text-align:left!important;
