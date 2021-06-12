@@ -1312,7 +1312,7 @@ body {
     }
 
     .quote img{
-        width: 15rem;
+        width: 15.5rem;
         height:auto;
         margin:0 2px;
     }
@@ -1327,7 +1327,7 @@ body {
         margin-top: -40px !important;
         padding-left:22px !important;
     }
-    @media screen and (max-width:420px){
+    @media screen and (max-width:600px){
         .quote{
             flex-direction: column;
             place-items: center;
